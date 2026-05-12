@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Archief van wekelijkse digests over huisartsenzorg in Nederland">
+<title>Huisartsen Weekly · Archief</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,300..900,0..100&family=Source+Serif+4:opsz,wght@8..60,300..700&family=JetBrains+Mono:wght@400;500&display=swap">
+</head>
+<body>
+<a class="skip" href="#main">Spring naar inhoud</a>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <p class="masthead-eyebrow">Wekelijkse digest · Huisartsenzorg Nederland</p>
+    <h1 class="masthead-title">Huisartsen<span class="masthead-amp">&nbsp;</span>Weekly</h1>
+    <p class="masthead-meta">Archief van alle verschenen edities</p>
+  </div>
+</header>
+
+<main id="main" class="archive">
+  {% if digests|length == 0 %}
+  <p class="empty">Nog geen digests verschenen. Eerstvolgende editie: aanstaande maandag.</p>
+  {% else %}
+
+  {% if trend_reports %}
+  <section class="archive-section">
+    <h2 class="archive-heading">Themabriefingen</h2>
+    <ol class="archive-list">
+      {% for r in trend_reports %}
+      <li class="archive-item">
+        <a href="trends/{{ r.url }}">
+          <span class="archive-week">{{ r.month_label }}</span>
+          <span class="archive-date">Maandelijkse analyse</span>
+        </a>
+      </li>
+      {% endfor %}
+    </ol>
+  </section>
+  {% endif %}
+
+  <section class="archive-section">
+    <h2 class="archive-heading">Wekelijkse digests</h2>
+    <ol class="archive-list" reversed>
+      {% for d in digests %}
+      <li class="archive-item">
+        <a href="{{ d.url }}">
+          <span class="archive-week">Week {{ "%02d"|format(d.week) }} · {{ d.year }}</span>
+          <span class="archive-date">{{ d.date_human }}</span>
+        </a>
+      </li>
+      {% endfor %}
+    </ol>
+  </section>
+
+  {% endif %}
+</main>
+
+<footer class="colophon">
+  <div class="colophon-inner">
+    <p>
+      Wekelijkse digest over de Nederlandse huisartsenzorg. Geautomatiseerd verzameld
+      en redactioneel gecureerd. Geen tracking, geen cookies, geen advertenties.
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>

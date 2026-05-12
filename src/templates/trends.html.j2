@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Themabriefing huisartsenzorg, {{ report.period_label }}: blogwaardige patronen en angles voor de praktijkbankier.">
+<title>Themabriefing {{ report.period_label }} · Huisartsen Weekly</title>
+<link rel="stylesheet" href="../style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,300..900,0..100&family=Source+Serif+4:opsz,wght@8..60,300..700&family=JetBrains+Mono:wght@400;500&display=swap">
+</head>
+<body>
+<a class="skip" href="#main">Spring naar inhoud</a>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <p class="masthead-eyebrow">Themabriefing · Blog ideation · Maandelijks</p>
+    <h1 class="masthead-title">{{ report.period_label }}</h1>
+    <p class="masthead-meta">
+      Analyse over {{ report.weeks_covered|length }} digests ·
+      {{ report.item_count }} items gewogen ·
+      {{ report.trends|length }} {% if report.trends|length == 1 %}thema{% else %}thema's{% endif %} gevonden
+    </p>
+  </div>
+</header>
+
+<main id="main" class="briefing">
+
+  <section class="briefing-intro">
+    <p>
+      Deze briefing wijst de thema's aan die door de digests van
+      {{ report.period_start }} tot {{ report.period_end }} heenliepen en
+      blogwaardig zijn vanuit jouw positie als private banker voor huisartsen.
+      Per thema: een stelling, het bewijs uit de items, een contraire invalshoek,
+      jouw banker-angle, en een kant-en-klare blog brief.
+    </p>
+    <p class="briefing-intro-disclaimer">
+      Niet elk thema hoeft een blog te worden. Kies wat resoneert.
+    </p>
+  </section>
+
+  {% for t in report.trends %}
+  <article class="trend" id="trend-{{ t.theme_id }}">
+
+    <header class="trend-header">
+      <p class="trend-number" aria-hidden="true">Thema {{ "%02d"|format(loop.index) }}</p>
+      <h2 class="trend-title">{{ t.theme_title }}</h2>
+      <blockquote class="trend-thesis">
+        <p>{{ t.thesis }}</p>
+      </blockquote>
+    </header>
+
+    <section class="trend-evidence">
+      <h3 class="section-label">Wat ik zie</h3>
+      <ol class="evidence-list">
+        {% for ev in t.evidence %}
+        <li class="evidence-item">
+          <p class="evidence-meta">
+            <span class="evidence-week">{{ ev.week }}</span>
+          </p>
+          <p class="evidence-title">
+            {% if ev.digest_url %}
+            <a href="{{ ev.digest_url }}">{{ ev.title }}</a>
+            {% else %}
+            {{ ev.title }}
+            {% endif %}
+          </p>
+          <p class="evidence-relevance">{{ ev.relevance }}</p>
+        </li>
+        {% endfor %}
+      </ol>
+    </section>
+
+    <div class="trend-insights">
+      <aside class="insight insight--contrarian">
+        <h3 class="section-label">Contraire invalshoek</h3>
+        <p>{{ t.contrarian_insight }}</p>
+      </aside>
+
+      <aside class="insight insight--banker">
+        <h3 class="section-label">Jouw banker-angle</h3>
+        <p>{{ t.banker_angle }}</p>
+      </aside>
+    </div>
+
+    <section class="trend-brief" aria-label="Blog brief">
+      <p class="brief-label">Blog brief — kant en klaar</p>
+      <h3 class="brief-title">{{ t.blog_brief.working_title }}</h3>
+      <p class="brief-hook">{{ t.blog_brief.hook }}</p>
+      <ol class="brief-points">
+        {% for pt in t.blog_brief.key_points %}
+        <li>{{ pt }}</li>
+        {% endfor %}
+      </ol>
+      <p class="brief-cta">
+        <span class="brief-cta-label">Afsluiter:</span> {{ t.blog_brief.call_to_action }}
+      </p>
+    </section>
+
+  </article>
+  {% if not loop.last %}<hr class="trend-divider" aria-hidden="true">{% endif %}
+  {% endfor %}
+
+</main>
+
+<footer class="colophon">
+  <div class="colophon-inner">
+    <p>
+      Gegenereerd op {{ report.generated_at[:10] }} op basis van de wekelijkse
+      digests in het archief. Thema's en angles zijn voorstellen ter inspiratie,
+      geen redactionele eindversies.
+    </p>
+    {% if prior_reports %}
+    <p class="colophon-nav">
+      Eerdere briefings:
+      {% for p in prior_reports[:6] %}
+      <a href="{{ p.url }}">{{ p.month_label }}</a>{% if not loop.last %} ·{% endif %}
+      {% endfor %}
+    </p>
+    {% endif %}
+    <p class="colophon-nav">
+      <a href="../index.html">← Terug naar het hoofdarchief</a>
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>

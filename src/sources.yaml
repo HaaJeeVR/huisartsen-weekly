@@ -1,0 +1,94 @@
+# Bronnen voor de wekelijkse huisartsen-digest.
+# Twee categorieen: directe RSS-feeds (vaktijdschriften, beroepsverenigingen,
+# toezichthouders) en Google News queries voor landelijke + lokale dekking.
+
+rss_feeds:
+  - name: "NHG"
+    url: "https://www.nhg.org/feed"
+    category: "Beroepsorganisatie"
+    weight: 1.0
+
+  - name: "LHV"
+    url: "https://www.lhv.nl/rss.xml"
+    category: "Beroepsorganisatie"
+    weight: 1.0
+
+  - name: "VPHuisartsen"
+    url: "https://www.vphuisartsen.nl/feed/"
+    category: "Beroepsorganisatie"
+    weight: 0.9
+
+  - name: "HuisartsVandaag"
+    url: "https://huisartsvandaag.nl/feed/"
+    category: "Aggregator"
+    weight: 0.7
+
+  - name: "Skipr"
+    url: "https://www.skipr.nl/feed/"
+    category: "Zorgmanagement"
+    weight: 0.9
+
+  - name: "Zorgvisie"
+    url: "https://www.zorgvisie.nl/feed/"
+    category: "Zorgmanagement"
+    weight: 0.9
+
+  - name: "IGJ"
+    url: "https://toezichtdocumenten.igj.nl/api/rss"
+    category: "Toezicht"
+    weight: 0.7
+
+  - name: "Zorginstituut Nederland"
+    url: "https://www.zorginstituutnederland.nl/api/rss?query=%7B%22filters%22%3A%5B%7B%22field%22%3A%22content_type%22%2C%22values%22%3A%5B%22pro%3AnewsDocument%22%5D%2C%22type%22%3A%22all%22%7D%5D%2C%22resultSearchTerm%22%3A%22%22%7D"
+    category: "Toezicht"
+    weight: 0.8
+
+# Google News fungeert als doorgeefluik voor landelijke + lokale dekking.
+# Eén feed geeft NOS, NU.nl, AD, FD, Volkskrant, Trouw, NRC, regionale kranten.
+google_news_queries:
+  - name: "Google News - huisarts"
+    query: "huisarts OR huisartsen OR huisartsenzorg"
+    category: "Algemeen nieuws"
+    weight: 0.6
+
+  - name: "Google News - eerste lijn"
+    query: '"eerste lijn" zorg'
+    category: "Algemeen nieuws"
+    weight: 0.6
+
+  - name: "Google News - huisartsentekort"
+    query: "huisartsentekort OR praktijkhouder OR huisartsenpost"
+    category: "Algemeen nieuws"
+    weight: 0.7
+
+  - name: "Google News - VWS zorg"
+    query: '"minister" zorg huisarts OR "tweede kamer" huisarts'
+    category: "Politiek"
+    weight: 0.7
+
+  - name: "Google News - NZa"
+    query: "NZa huisarts OR tarieven huisartsenzorg"
+    category: "Bekostiging"
+    weight: 0.8
+
+# Selectiecriteria voor de redacteur-prompt.
+editorial:
+  target_items: 6        # streefaantal, mag fluctueren tussen 4 en 8
+  min_items: 3           # accepteer korte digest, vul niet op
+  max_items: 8
+  lookback_days: 7
+
+  # Prioriteit voor het banker-voor-huisartsen perspectief.
+  prioritize:
+    - "Bekostiging en tarieven (NZa, zorgverzekeraars)"
+    - "Regelgeving en wetgeving (VWS, IGJ, NHG-standaarden met financiele/organisatorische impact)"
+    - "Praktijkeconomie, overname, opvolging, vastgoed"
+    - "Arbeidsmarkt en huisartsentekort"
+    - "Organisatiepolitiek (ROHA, zorggroepen, transitieakkoorden)"
+    - "Digitalisering met financiele of operationele impact"
+    - "Maatschappelijke debatten die imago/positie van huisartsen raken"
+
+  deprioritize:
+    - "Pure klinische onderzoeksresultaten zonder beleidsimpact"
+    - "Patient-facing voorlichting (Thuisarts updates etc)"
+    - "Casuistiek zonder bredere relevantie"

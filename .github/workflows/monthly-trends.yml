@@ -1,0 +1,69 @@
+name: Monthly Themabriefing
+
+on:
+  schedule:
+    # Eerste maandag van de maand om 08:00 Europe/Amsterdam (06:00 UTC zomer,
+    # 07:00 UTC winter). We draaien beide tijden; de skip-check voorkomt
+    # dubbele rapporten in dezelfde maand.
+    - cron: '0 6 1-7 * 1'
+    - cron: '0 7 1-7 * 1'
+  workflow_dispatch:        # handmatige trigger voor on-demand briefings
+
+permissions:
+  contents: write
+
+concurrency:
+  group: monthly-trends
+  cancel-in-progress: false
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Skip if briefing for this month already exists
+        id: check
+        run: |
+          MONTH_FILE="docs/trends/$(date -u +%Y-%m).html"
+          if [ -f "$MONTH_FILE" ]; then
+            echo "Briefing voor deze maand bestaat al: $MONTH_FILE"
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Run trend analysis
+        if: steps.check.outputs.skip != 'true'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          cd src
+          python run_trends.py
+
+      - name: Commit and push
+        if: steps.check.outputs.skip != 'true'
+        run: |
+          git config user.name "huisartsendigest-bot"
+          git config user.email "actions@github.com"
+          git add docs/
+          if ! git diff --staged --quiet; then
+            git commit -m "Themabriefing $(date -u +%Y-%m)"
+            git push
+          else
+            echo "Geen wijzigingen om te committen."
+          fi

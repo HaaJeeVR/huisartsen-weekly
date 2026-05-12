@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Wekelijkse digest huisartsenzorg, week {{ iso_week }} van {{ iso_year }}">
+<title>Huisartsen Digest, week {{ iso_week }} · {{ iso_year }}</title>
+<link rel="stylesheet" href="../style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,300..900,0..100&family=Source+Serif+4:opsz,wght@8..60,300..700&family=JetBrains+Mono:wght@400;500&display=swap">
+</head>
+<body>
+<a class="skip" href="#main">Spring naar inhoud</a>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <p class="masthead-eyebrow">Wekelijkse digest · Huisartsenzorg Nederland</p>
+    <h1 class="masthead-title">Huisartsen<span class="masthead-amp">&nbsp;</span>Weekly</h1>
+    <p class="masthead-meta">
+      Week {{ "%02d"|format(iso_week) }} · {{ iso_year }} &nbsp;·&nbsp;
+      Verschenen {{ publish_date_human }} &nbsp;·&nbsp;
+      {{ item_count }} {% if item_count == 1 %}item{% else %}items{% endif %} uit {{ source_count }} bronnen
+    </p>
+  </div>
+</header>
+
+<main id="main" class="digest">
+  {% if items|length == 0 %}
+  <section class="empty">
+    <p>Geen relevante items deze week. Volgende maandag weer.</p>
+  </section>
+  {% else %}
+    {% for item in items %}
+    <article class="item" id="item-{{ item.rank }}">
+      <div class="item-number" aria-hidden="true">{{ "%02d"|format(item.rank) }}</div>
+      <header class="item-header">
+        <p class="item-meta">
+          <span class="item-source">{{ item.source }}</span>
+          <span class="item-sep">·</span>
+          <span class="item-category">{{ item.category }}</span>
+          <span class="item-sep">·</span>
+          <time datetime="{{ item.published }}">{{ item.published }}</time>
+          {% if item.primary_kind == "report" %}
+          <span class="item-sep">·</span>
+          <span class="item-badge item-badge--report">Rapport</span>
+          {% endif %}
+        </p>
+        {% if item.via_source %}
+        <p class="item-via">via {{ item.via_source }}</p>
+        {% endif %}
+        <h2 class="item-title">{{ item.title }}</h2>
+      </header>
+
+      <div class="item-summary">
+        <p>{{ item.summary }}</p>
+      </div>
+
+      <aside class="item-take" aria-label="Waarom dit ertoe doet">
+        <h3 class="item-take-label">Waarom dit ertoe doet</h3>
+        <p>{{ item.why_it_matters }}</p>
+      </aside>
+
+      <p class="item-link">
+        <a href="{{ item.url }}" rel="noopener external">
+          {%- if item.primary_kind == "report" -%}
+            Lees het rapport bij {{ item.source }} ↗
+          {%- elif item.primary_kind == "outlet" -%}
+            Lees het artikel bij {{ item.source }} ↗
+          {%- else -%}
+            Lees het volledige bericht ↗
+          {%- endif -%}
+        </a>
+      </p>
+    </article>
+    {% if not loop.last %}<hr class="divider" aria-hidden="true">{% endif %}
+    {% endfor %}
+  {% endif %}
+</main>
+
+<footer class="colophon">
+  <div class="colophon-inner">
+    <p>
+      Samengesteld door een geautomatiseerde pijplijn op basis van openbare RSS-feeds en
+      Google News, met redactionele selectie door Claude (Anthropic).
+      Bronlinks verwijzen naar de oorspronkelijke publicaties.
+    </p>
+    <p class="colophon-nav">
+      <a href="../index.html">← Alle digests</a>
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
