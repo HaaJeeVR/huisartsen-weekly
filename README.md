@@ -1,34 +1,42 @@
 # Huisartsen Weekly
 
 Wekelijkse digest over de Nederlandse huisartsenzorg, geautomatiseerd verzameld
-en redactioneel gecureerd door Claude. Elke maandagochtend een nieuwe editie,
+en redactioneel gecureerd in Cowork. Elke maandag een nieuwe editie,
 gepubliceerd via GitHub Pages.
 
-## Wat het is
+## Architectuur (v2 hybride)
 
-Een Python-pijplijn die op maandagochtend:
+Dit project bestaat uit twee helften, met een duidelijke knip:
 
-1. Tien RSS-feeds van vakbronnen, beroepsverenigingen en toezichthouders pullt
-2. Drie Google News queries draait voor landelijke + lokale dekking
-3. Items van de afgelopen 7 dagen filtert en dedupliceert
-4. Claude als senior redacteur 4-8 items laat selecteren en voorzien van
-   feitelijke samenvatting + opinionated "Waarom dit ertoe doet"
-5. Voor items uit aggregators (HuisartsVandaag, Google News): Claude met
-   web_search de primaire bron laat opzoeken (onderliggend rapport, IGJ-
-   publicatie, of originele nieuwsoutlet) en daar naar laat linken
-6. De editie als statische HTML naar `docs/digests/YYYY-Www.html` schrijft,
-   plus een sidecar JSON met gestructureerde data voor trend-analyse
-7. De index pagina bijwerkt
-8. Het geheel terugcommit naar de repo; GitHub Pages serveert het
+**Cloud-kant (GitHub Actions, gratis)**
 
-Naast de wekelijkse digest draait er een **maandelijkse themabriefing**, op de
-eerste maandag van elke maand:
+1. Elke maandagochtend draait een workflow die tien RSS-feeds van vakbronnen,
+   beroepsverenigingen en toezichthouders pullt, plus vijf Google News queries
+   voor landelijke + lokale dekking.
+2. Items van de afgelopen 7 dagen worden gededupliceerd op canonical URL en
+   fuzzy titel-match.
+3. De ruwe kandidatenlijst wordt naar `pending/YYYY-Www.json` geschreven en
+   teruggecommit naar de repo.
 
-1. Leest alle digest-JSON van de afgelopen 6 weken
-2. Claude als strategisch analist identificeert 3-5 blogwaardige thema's
-3. Per thema: stelling, bewijs uit items, contraire invalshoek, banker-angle,
-   en een kant-en-klare blog brief (werktitel, hook, key points, CTA)
-4. Wegschrijven naar `docs/trends/YYYY-MM.html`
+**Lokaal in Cowork (jouw Claude Pro abonnement, geen API kosten)**
+
+4. Jij opent Cowork ergens deze week, pulled de repo, en vraagt Claude de
+   pending-JSON te lezen.
+5. Cowork (Claude) cureert: selectie van 4-8 items, feitelijke samenvatting +
+   opinionated "Waarom dit ertoe doet" vanuit banker-perspectief.
+6. Voor items uit aggregators (HuisartsVandaag, Google News): Cowork gebruikt
+   WebFetch/WebSearch om de primaire bron op te zoeken (onderliggend rapport,
+   IGJ-publicatie, of originele nieuwsoutlet).
+7. Cowork schrijft de selectie naar `curated/YYYY-Www.json`.
+8. Cowork draait `python src/publish_digest.py --week YYYY-Www`. Dit rendert
+   de HTML naar `docs/digests/`, schrijft een sidecar JSON voor latere
+   trend-analyse, en werkt de index bij.
+9. Cowork doet `git commit && git push`. GitHub Pages serveert het direct.
+
+Naast de wekelijkse digest is er een **maandelijkse themabriefing**, ook in
+Cowork: Claude leest 6 weken aan digest-JSONs, identificeert 3-5 blogwaardige
+thema's per stuk met stelling/contraire invalshoek/banker-angle/blog-brief, en
+publiceert via `python src/publish_trends.py --month YYYY-MM`.
 
 Lens: private banker met portefeuille huisartsenpraktijken. Focus op
 bekostiging, regelgeving, praktijkeconomie, arbeidsmarkt, organisatiepolitiek
@@ -36,141 +44,67 @@ en digitalisering met financiele impact. Geen klinisch.
 
 ## Eenmalige setup
 
-1. **Clone deze repo naar je GitHub account** (of fork hem).
+1. Clone deze repo naar je GitHub account (of fork hem).
+2. **Settings > Pages**: source = "Deploy from a branch", branch = `main`,
+   folder = `/docs`.
+3. **Settings > Actions > General**: zet "Workflow permissions" op
+   "Read and write permissions" zodat de fetch-workflow kan terugcommitten.
+4. Trigger eenmalig handmatig: **Actions > Weekly Fetch Candidates >
+   Run workflow**. Na ~2 minuten staat er een `pending/YYYY-Www.json` in je
+   repo.
 
-2. **Voeg je Anthropic API key toe als repo secret:**
-   - Repo settings → Secrets and variables → Actions → New repository secret
-   - Naam: `ANTHROPIC_API_KEY`
-   - Waarde: je API key
+## Wekelijkse run in Cowork
 
-3. **Zet GitHub Pages aan:**
-   - Repo settings → Pages
-   - Source: Deploy from a branch
-   - Branch: `main` (of je default branch), folder: `/docs`
-   - Save. Binnen een minuut staat je site op
-     `https://<je-username>.github.io/huisartsendigest/`
-
-4. **Geef GitHub Actions schrijfrechten:**
-   - Repo settings → Actions → General → Workflow permissions
-   - "Read and write permissions" aanvinken
-   - Save
-
-5. **Test handmatig:**
-   - Tab Actions → Weekly Huisartsen Digest → Run workflow
-   - Wacht ~1 minuut, dan staat de eerste editie online
-
-Daarna draait alles autonoom. Elke maandag 07:00 Europe/Amsterdam.
-
-## Lokaal draaien
-
-```bash
-pip install -r requirements.txt
-export ANTHROPIC_API_KEY=sk-ant-...
-cd src
-python main.py
-```
-
-Resultaat: `docs/digests/<huidige-week>.html` en bijgewerkte `docs/index.html`.
-
-## Bronnen aanpassen
-
-Open `src/sources.yaml`. Drie secties:
-
-- `rss_feeds`: directe RSS van vakbronnen, met gewicht (1.0 = hoog vertrouwen)
-- `google_news_queries`: zoektermen voor breed nieuws
-- `editorial`: aantal items, lookback, prioriteits-thema's voor de redacteur
-
-Een feed kapot? Niks aan de hand; de pijplijn slaat hem over en logt het.
-Wel handig om af en toe je Actions-logs te checken.
-
-## Mappenstructuur
+Zie [`COWORK.md`](./COWORK.md) voor het volledige runbook met copy-paste
+prompts. Verkorte versie:
 
 ```
-huisartsendigest/
-├── .github/workflows/
-│   ├── weekly-digest.yml              # maandag 07:00 lokaal
-│   └── monthly-trends.yml             # eerste maandag 08:00 lokaal
-├── src/
-│   ├── sources.yaml                   # bronnen en redactionele criteria
-│   ├── fetch.py                       # RSS + Google News, dedup
-│   ├── curate.py                      # Claude als redacteur
-│   ├── resolver.py                    # primaire bronnen voor aggregators
-│   ├── trends.py                      # maandelijkse thema-analyse
-│   ├── render.py                      # Jinja2 -> HTML, JSON sidecar
-│   ├── main.py                        # wekelijkse pijplijn
-│   ├── run_trends.py                  # maandelijkse pijplijn
-│   └── templates/
-│       ├── digest.html.j2
-│       ├── index.html.j2
-│       └── trends.html.j2
-├── docs/                              # GitHub Pages root
-│   ├── index.html
-│   ├── style.css
-│   ├── digests/
-│   │   ├── 2026-W20.html              # leesbare digest
-│   │   └── 2026-W20.json              # gestructureerde data voor trends
-│   └── trends/
-│       └── 2026-05.html               # maandelijkse themabriefing
-└── README.md
+cd huisartsen-weekly
+git pull
+# Open Cowork in deze folder
+# Vraag: "Cureer de pending digest voor deze week"
+# Cowork doet de selectie + schrijft curated/YYYY-Www.json
+python src/publish_digest.py --latest
+git add docs/ curated/
+git commit -m "Digest week YYYY-Www"
+git push
 ```
 
-## Kosten
+## Repo structuur
 
-Per wekelijkse run ongeveer 30-60 cent. De maandelijkse trend-analyse kost
-ongeveer 20-40 cent extra (een enkele grote API-call met 6 weken data).
-Totaal per jaar: 20 tot 40 euro.
+```
+.github/workflows/
+  fetch-candidates.yml       # cloud: wekelijkse fetch
+src/
+  fetch.py                   # RSS + Google News pullen
+  fetch_candidates.py        # Actions entry: writes pending/
+  publish_digest.py          # Cowork entry: reads curated + publishes
+  publish_trends.py          # Cowork entry: rendert maandbriefing
+  curate.py                  # CuratedItem dataclass (geen LLM-code)
+  resolver.py                # is_aggregator_url helper
+  trends.py                  # Trend-dataclasses + load_recent_digests
+  render.py                  # Jinja templates -> HTML
+  sources.yaml               # feeds + Google News queries
+  templates/                 # Jinja2 HTML templates
+pending/                     # Actions schrijft hier kandidatenlijsten
+curated/                     # Cowork schrijft hier de selectie
+curated_trends/              # Cowork schrijft hier maand-analyses
+docs/                        # GitHub Pages serveert deze folder
+  digests/                   # gepubliceerde wekelijkse digests
+  trends/                    # gepubliceerde maandbriefings
+  style.css
+```
 
-## Failsafes
+## Waarom hybride?
 
-- Eén crashende feed laat de rest doorlopen
-- Claude API call krijgt 3x retry met backoff
-- Bij minder dan 3 kandidaat-items: pijplijn stopt, geen thin digest
-- Workflow heeft `concurrency` group, kan dus geen overlap geven
-- Twee cron-triggers per maandag (05:00 + 06:00 UTC) zodat we het hele jaar
-  rond 07:00 lokaal draaien; dedup-check voorkomt dubbele digests
+De oude v1-architectuur draaide Claude via de Anthropic API binnen GitHub
+Actions. Dat werkte maar kostte 1-3 euro per maand en vereiste een aparte
+API-account. In v2 is de redactionele intelligentie verplaatst naar Cowork
+(jouw Pro-abonnement), terwijl de saaie fetch-stap nog steeds in de cloud
+draait. Resultaat: nul API-kosten, jij blijft redactionele controle houden,
+en de pipeline is robuuster omdat een falende LLM-call de cron niet meer
+kan breken.
 
-## Wat het niet doet (bewust)
-
-- Geen zoekfunctie over het archief (komt later, indien gewenst)
-- Geen trend-detectie over meerdere weken (komt later)
-- Geen notificatie dat de digest klaar is (open vraag: wil je dit via mail of
-  Telegram?)
-- Geen javascript runtime; bewust statisch en cacheable
-- Geen cookies, tracking, of advertenties
-
-
-## Maandelijkse themabriefing
-
-Naast de wekelijkse digest draait er op de eerste maandag van elke maand
-een tweede pijplijn: `run_trends.py`. Die leest de structured data van de
-afgelopen 4 tot 6 weken aan digests (sidecar JSON-bestanden naast elke
-HTML), en vraagt Claude als strategisch analist om 3 tot 5 thema's te
-identificeren die door de weken heenliepen en blog-waardig zijn.
-
-Per thema lever de briefing:
-
-- Een scherpe stelling (1-2 zinnen, niet generiek)
-- 2-5 evidence-items met links naar de oorspronkelijke digests
-- Een contraire invalshoek (wat mist de mainstream-lezing?)
-- Een banker-angle (wat zie jij wat anderen niet zien?)
-- Een kant-en-klare blog brief: werktitel, hook, 3-4 kernpunten, CTA
-
-Output: `docs/trends/YYYY-MM.html`. Wordt vanuit de hoofd-index gelinkt.
-
-### Trigger
-
-- Automatisch elke eerste maandag van de maand, 08:00 Europe/Amsterdam
-- Handmatig via tab Actions → Monthly Themabriefing → Run workflow
-  (bijvoorbeeld wanneer je op een specifiek moment inspiratie nodig hebt)
-
-### Wat het niet doet
-
-Het is bewust geen frequentie-analyse of grafiek. De inschatting is dat
-een thema pas blog-waardig is als je er 600-1000 woorden over kunt
-schrijven met een eigen invalshoek, en dat kan Claude beter beoordelen
-dan een woord-teller.
-
-## Licentie
-
-Voor persoonlijk gebruik. Bronartikelen blijven eigendom van de oorspronkelijke
-uitgevers; deze digest linkt door en herhaalt geen significante passages.
+Trade-off: je moet één keer per week ~10 minuten in Cowork bezig zijn om de
+digest live te krijgen. Als je dat niet doet, mis je die editie. De cloud-
+fetch blijft wel doorlopen, dus je kunt later altijd nog inhalen.

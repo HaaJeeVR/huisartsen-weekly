@@ -1,25 +1,25 @@
-name: Weekly Huisartsen Digest
+name: Weekly Fetch Candidates
 
 on:
   schedule:
-    # Maandag 07:00 Europe/Amsterdam. UTC = 05:00 (zomer) of 06:00 (winter).
-    # GitHub Actions cron is UTC. Twee triggers zodat we het hele jaar 07:00 lokaal raken,
-    # met dedup-bescherming: de script weigert te draaien als er deze week al een digest is.
+    # Maandag 06:00 Europe/Amsterdam. UTC = 04:00 (zomer) of 05:00 (winter).
+    # Twee triggers zodat we het hele jaar rond 06:00 lokaal raken; de skip-
+    # check voorkomt dubbele fetches.
+    - cron: '0 4 * * 1'
     - cron: '0 5 * * 1'
-    - cron: '0 6 * * 1'
-  workflow_dispatch:        # handmatige trigger voor tests
+  workflow_dispatch:
 
 permissions:
-  contents: write           # nodig om de digest terug te committen
+  contents: write
 
 concurrency:
-  group: weekly-digest
+  group: fetch-candidates
   cancel-in-progress: false
 
 jobs:
-  build-and-publish:
+  fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 10
 
     steps:
       - name: Checkout
@@ -36,34 +36,32 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Skip if digest for this week already exists
+      - name: Skip if candidates for this week already exist
         id: check
         run: |
-          WEEK_FILE="docs/digests/$(date -u +%G-W%V).html"
+          WEEK_FILE="pending/$(date -u +%G-W%V).json"
           if [ -f "$WEEK_FILE" ]; then
-            echo "Digest voor deze week bestaat al: $WEEK_FILE"
+            echo "Pending voor deze week bestaat al: $WEEK_FILE"
             echo "skip=true" >> "$GITHUB_OUTPUT"
           else
             echo "skip=false" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Run pipeline
+      - name: Fetch candidates
         if: steps.check.outputs.skip != 'true'
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           cd src
-          python main.py
+          python fetch_candidates.py
 
-      - name: Commit and push
+      - name: Commit and push pending
         if: steps.check.outputs.skip != 'true'
         run: |
           git config user.name "huisartsendigest-bot"
           git config user.email "actions@github.com"
-          git add docs/
+          git add pending/
           if ! git diff --staged --quiet; then
-            git commit -m "Digest week $(date -u +%G-W%V)"
+            git commit -m "Pending candidates week $(date -u +%G-W%V)"
             git push
           else
-            echo "Geen wijzigingen om te committen."
+            echo "Geen nieuwe pending file om te committen."
           fi
