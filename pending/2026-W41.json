@@ -1,0 +1,809 @@
+{
+  "iso_year": 2026,
+  "iso_week": 41,
+  "fetched_at": "2026-10-05T12:57:17.685137+02:00",
+  "candidate_count": 89,
+  "candidates": [
+    {
+      "title": "Hand en Pols Centrum Amsterdam augustus 2026",
+      "url": "https://toezichtdocumenten.igj.nl/link/publicatie?publ=93dfb6d6-37de-4803-af95-d74096ce77d1",
+      "source": "IGJ",
+      "category": "Toezicht",
+      "weight": 0.7,
+      "published": "2026-10-05T11:45:00+00:00",
+      "summary": "Dit is een rapport na een toezichtsbezoek aan deze zorgaanbieder. Hierin staat hoe de inspectie oordeelt over de zorg. Als de zorgaanbieder verbetermaatregelen moet nemen, staat dat in het rapport. De zorgaanbieder kan hier een reactie bij plaatsen."
+    },
+    {
+      "title": "Campagne moet meer huisartsen naar Zuidoost-Drenthe trekken - ZO!34",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNX2VBbmRWSXFuWGNIeTJoODVNWUhQQWJLMG01cllhNUxnYjFXQWdLTTFxbVVHNzlJbzJMTVExMm1uc0l2cTJIQk5TNXhoX2ZIQ3EyUEdUdnRvNmRGS0tqN1d5VGFhUGszaHFwMTk2cjFfdDlPNzhBRDVGUVpMU0dZbzkwdU9KRFJKTDFSRWxIdXdVWlJTZWpzdQ?oc=5",
+      "source": "Google News - huisarts",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-10-05T09:38:45+00:00",
+      "summary": "Campagne moet meer huisartsen naar Zuidoost-Drenthe trekken &nbsp;&nbsp; ZO!34"
+    },
+    {
+      "title": "Artsenverenigingen dienen klacht in bij Europese Commissie na hervorming Vandenbroucke - HLN",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUFMyVEZIOXU0QWd3c0owNmNVdUllUDREenlFZ0tHMXhEeXdfTll5YkpiVEVTYVFVRVdNcTdkV0syNThHOHZpNE43dExNZHVzeHNoaXhMMmpKUkNiX3M2ZGpJWEhGZTJGTVVYWTA3R19jM3RpVnV5b2gyY3RuQ1VwdGx6SFJ0YUNuSlM4ZGR5bWprbWRpTVVlWXZtTG1lMURuOGdoRFVUOS1Wdm9PLTEyRmtoZmRzd1ZJaVA4ODF3UVhTaDN4?oc=5",
+      "source": "Google News - VWS zorg",
+      "category": "Politiek",
+      "weight": 0.7,
+      "published": "2026-10-05T09:23:00+00:00",
+      "summary": "Artsenverenigingen dienen klacht in bij Europese Commissie na hervorming Vandenbroucke &nbsp;&nbsp; HLN"
+    },
+    {
+      "title": "Nieuwe huisartsenpraktijk in voormalige politiepost is open: ‘Het is een gebouw met geschiedenis’ - HilversumsNieuws",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNT3Q5UlVrbml5MTJTRkpmY3EzdEtabEZUYjNMMDVvTElDT0Z4eGhBN0hNU2ZFd0ZvRlhjUVdtQ3ZBWk9OZXQwUC1YUV84aVdRdzJlT1RaT25WdjBQa1BVMkZyWUdqTWY5eTN1MU0teE91U3FfLWZLWFAxQzF0Q25tQVUyOEF5YTB6RGRsQmU3SGdKeUFZSmwxSUFLLVItX0hqX2VteTNOc2NaZ0xsOHRERXVJb21fOUJkbVFkTUhXVDhfZ1RlSlAwWl9aMk9UNm5MNXRZVE5rbjVxakd4aTNYNzc5dUtHM1V1V2RvNA?oc=5",
+      "source": "Google News - huisarts",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-10-05T09:03:44+00:00",
+      "summary": "Nieuwe huisartsenpraktijk in voormalige politiepost is open: ‘Het is een gebouw met geschiedenis’ &nbsp;&nbsp; HilversumsNieuws"
+    },
+    {
+      "title": "De zorgverzekering is geregeld, maar wie regelt de huisarts? - Flexmarkt",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdC1hTHdHSlJwU2VJUUFfaDBuUmZrWmNKN3FZNWFJY2l1eVNOT0lmYUh6SmVRUW5XdVBJbm9MZHByVjAyMUZGZmNEeHlqVGo0eXNaQkI3ZTNEd25DSlBJclAxakdpbS01TlNqY1NUYlZITmRmUkswQzRvUXZrMDI0RFhQVUw3QUtRamNhUjhZT25DbUszcF9zY2t6Mm5EY3JI?oc=5",
+      "source": "Google News - huisarts",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-10-05T09:00:17+00:00",
+      "summary": "De zorgverzekering is geregeld, maar wie regelt de huisarts? &nbsp;&nbsp; Flexmarkt"
+    },
+    {
+      "title": "“Trek remgeld op naar minstens 10 euro” - De Specialist",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPLWtZdUxEMmwxZHRXUExxeTdpbEc3N3N5czg1Z19mVmdtcFFmX3R4ZlMwelduX25kREFZN25rbll3OFlGcGJkbl9OalQyd1RSRnhzZG5SX2QxMTFKZWhDOGllQklmMWlKY0haa1ladGhYOFlSeXpZTERjS1dVVlpESzIyd2dabEVoWVVFcXY0MzBYb1h0Zi1UMHNTX3NkMlFINmROYzNXc0xlUQ?oc=5",
+      "source": "Google News - VWS zorg",
+      "category": "Politiek",
+      "weight": 0.7,
+      "published": "2026-10-05T08:40:55+00:00",
+      "summary": "“Trek remgeld op naar minstens 10 euro” &nbsp;&nbsp; De Specialist"
+    },
+    {
+      "title": "Tegen de jongen met het petje kan dokter Rutger niet op, maar hij kan zich later tóch bewijzen - AD.nl",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNU0pGdm14dkxuQ2lQMjJ5aHJjQl9IRnpRbmR4WWZOOU42MjBWWDFVMkJSZ0xhbEFFZGRXcURQdzdIRlZnczdTNEZQTUVnMDhQNUE0blp0SUViUjAyWlpXUnJZMUN3WmY4dUhoRFp3YXh0RGhkVklwTU9peVVGS0NWb0dGeTdjQW5nM3E4STlPQXhLbEJFWHVONnZXeUVFSDlEdkRqeXFVd1BLRDEtYzJHNXpXTmFMVnVKLUJHdzAwU0k1VkMzaVhZ?oc=5",
+      "source": "Google News - huisarts",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-10-05T08:15:00+00:00",
+      "summary": "Tegen de jongen met het petje kan dokter Rutger niet op, maar hij kan zich later tóch bewijzen &nbsp;&nbsp; AD.nl"
+    },
+    {
+      "title": "COPD-patiënt sneller van ziekenhuis naar huisarts dankzij hybride zorg - dutchitleaders.nl",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcm9qQktjb05mRjRTNFVhUlVWOGRvSlQwYjNMUTcybW9WdmNQUUl6cldSR3hicHZaeEQ5ZVVPMGo1VHBzdUxESHRvWl8zVDh5MmVNU3YtYy1GMkNjcF9qTF8yeTRkaWxBYnptcTlSaUxPVERpamJPbHVXZUhnbzJiN0xVMWxtclpOcV8wT05tSURtc2lzVGlKVDZMamFZTjFDSk03Uzd3S1d4Zlp3ckJFXzhQZzdBekJJ?oc=5",
+      "source": "Google News - huisarts",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-10-05T08:14:29+00:00",
+      "summary": "COPD-patiënt sneller van ziekenhuis naar huisarts dankzij hybride zorg &nbsp;&nbsp; dutchitleaders.nl"
+    },
+    {
+      "title": "Nieuwbouw Valken ’68 en huisartsen in Valkenburg begint volgend jaar zomer, na vertraging door ’stomme fout’. ’Streep eronder en door’ - Leidsch Dagblad",
+      "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQZGtDdXJFeUd5eDJ1QU9CdUY0YjBzdy05U1NQUjhZeF84YkYySEJiekVnNURnd0k4U2c4Mm9Yc3RXNEhSVmhjS3dsU3E0bGFxeTFlb3RDYUliREFfbExJbERsbGVUOEw2R2YxUW1mX3laZC1xaHQ5cEFmUk1iblJ4MENKSktUamYzdkNpaXdtdHpTV2EtZWoxVjdtRFdHanRFSU1PUjktbUR6SkNTUTRxOE9LX3k2OElQelpPZGVpdDNyb0VxYzVrbWhZakhFbWJidDRCeFQxWWR0QWR5ZjAtRDlTT1RzY0tLVXQ2YmpjdEZlckVMY056aWJZQzhBZDBPVHFOUUdlMVBDM1JIWkRHeFRPSUdWZU00aFFFUmVBbVc2U1pCN3Mw?oc=5",
+      "source": "Google News - huisarts",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-10-05T07:44:56+00:00",
+      "summary": "Nieuwbouw Valken ’68 en huisartsen in Valkenburg begint volgend jaar zomer, na vertraging door ’stomme fout’. ’Streep eronder en door’ &nbsp;&nbsp; Leidsch Dagblad"
+    },
+    {
+      "title": "“Deontologisch onaanvaardbaar”: dokters mogen vooraf geen waarborg meer vragen in strijd tegen ‘no-shows’ - Nieuwsblad",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQdlVGWWI1TE4xbi1oZnludngtN3pVX2FvQ3VYZ3hZNlFiZERfeTBKRTRudFZPQmxiZXgwZld4dlRYOWVSeXNzQktBVjVCaU1UeXdwenpqeXo1TnhrbTctemRtYV9zVHFLbUtZV1pCWDczOG9sZzU1cWpqTnhHUFB4dTIxYjR4dW05N05RRnZvUDIwR2xtWlBzbjJETF83d0lSU3FJYmUzUmkxNUlOTEx0Zi1nSjVvMGxpczQtTmNuRVROWXV5X2F2VUstLUVEbFFuRmE5RWg5QmY2T2Y0?oc=5",
+      "source": "Google News - VWS zorg",
+      "category": "Politiek",
+      "weight": 0.7,
+      "published": "2026-10-05T07:13:58+00:00",
+      "summary": "“Deontologisch onaanvaardbaar”: dokters mogen vooraf geen waarborg meer vragen in strijd tegen ‘no-shows’ &nbsp;&nbsp; Nieuwsblad"
+    },
+    {
+      "title": "Appie vzw en Oever bezorgen ouders met zwaar zieke kinderen lekkere brunch om even zorgen te vergeten - GVA",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPTjlRSENJd2RmRkpDQ0QzOVgtOWVjdWJFc2JuY1BsSktJZXNrQTZPVElkM0FOWTkwZVlRTFRQSmRhVXBzTjk4OU9wQmJvY240UEUxeldSWTVWVmNVeklBQnBIc29kOXJEWVJoTkNKWEY3dVppd21CdTJubzV5VFpFMnVfdUtiamRIZU5NZG5qN0w5NEdEM3pWbjhCYVpWMU9vYlZQWHlzTG92d0plbHhNMFRMYzMxR3FFTUpLcXRHdDljeEs4SmliNVZjc19rZDl4UnZZbl96TTk4eWN5YmpIT0pqS2dyRDdseFQ5cV9yR1ZiRHVQa08zVGxmRF93TTJHazlQLTh3?oc=5",
+      "source": "Google News - eerste lijn",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-10-05T01:18:00+00:00",
+      "summary": "Appie vzw en Oever bezorgen ouders met zwaar zieke kinderen lekkere brunch om even zorgen te vergeten &nbsp;&nbsp; GVA"
+    },
+    {
+      "title": "Oud-directeur huisartsenketen Co-Med verdacht van fraude en belastingmisdrijf",
+      "url": "https://huisartsvandaag.nl/oud-directeur-huisartsenketen-co-med-verdacht-van-fraude-en-belastingmisdrijf/",
+      "source": "HuisartsVandaag",
+      "category": "Aggregator",
+      "weight": 0.7,
+      "published": "2026-10-04T22:21:42+00:00",
+      "summary": "Oud-directeur Guy V. van huisartsenketen Co-Med wordt strafrechtelijk vervolgd voor fraude en een belastingmisdrijf, zo bericht NRC. Justitie verdenkt V. onder meer van het vervalsen van een jaarrekening van een van zijn bedrijven. De accountant van V. deed aangifte toen hij stuitte op een goedkeurende verklaring met zijn handtekening eronder die de accountant zelf niet [&#8230;]"
+    },
+    {
+      "title": "Medische Vakhandel: Slim Lean voorraadbeheer in de huisartsenpraktijk: van Kanban naar digitaal bestellen",
+      "url": "https://huisartsvandaag.nl/medische-vakhandel-slim-lean-voorraadbeheer-in-de-huisartsenpraktijk-van-kanban-naar-digitaal-bestellen/",
+      "source": "HuisartsVandaag",
+      "category": "Aggregator",
+      "weight": 0.7,
+      "published": "2026-10-04T22:20:18+00:00",
+      "summary": "Voorraadbeheer lijkt een klein onderdeel van de dagelijkse praktijkvoering, maar kost in veel huisartsenpraktijken veel tijd. Controleren, tellen, bijbestellen en het bewaken van houdbaarheidsdata zijn terugkerende werkzaamheden. Medische Vakhandel werkt daarom aan een digitale oplossing waarin bestellen en voorraadbeheer worden gecombineerd met het principe van Kanban. Van periodiek controleren naar een digitaal signaal Bij veel [&#8230;]"
+    },
+    {
+      "title": "Medewerker Artsen zonder Grenzen met ebola wordt in strikte isolatie behandeld in LUMC",
+      "url": "https://huisartsvandaag.nl/medewerker-artsen-zonder-grenzen-met-ebola-wordt-in-strikte-isolatie-behandeld-in-lumc/",
+      "source": "HuisartsVandaag",
+      "category": "Aggregator",
+      "weight": 0.7,
+      "published": "2026-10-04T22:20:07+00:00",
+      "summary": "De met ebola besmette medewerker van Artsen zonder Grenzen wordt behandeld in het Leids Universitair Medisch Centrum. De medewerker raakte besmet tijdens zijn werk in de Democratische Republiek Congo, waar sinds mei een dodelijke uitbraak van ebola woedt. De hulporganisatie deelt geen verdere informatie over de identiteit van de medewerker. Het RIVM laat weten dat [&#8230;]"
+    },
+    {
+      "title": "Medische Vakhandel nieuwsbrief met 25% korting op stethoscopen dokterstassen en meer",
+      "url": "https://huisartsvandaag.nl/medische-vakhandel-nieuwsbrief-met-25-korting-op-stethoscopen-dokterstassen-en-meer/",
+      "source": "HuisartsVandaag",
+      "category": "Aggregator",
+      "weight": 0.7,
+      "published": "2026-10-04T22:19:22+00:00",
+      "summary": "Profiteer nu van 25% korting! Profiteer tijdelijk van maar liefst 25% korting op een selectie van onze populaire medische producten! Of u nu op zoek bent naar betrouwbare diagnostische apparatuur, professionele bloeddrukmeters, een kwalitatieve stethoscoop, praktische EHBO-benodigdheden of een stijlvolle dokterstas: dit is hét moment om uw voorraad aan te vullen. Bekijk onze aanbiedingen en [&#8230;]"
+    },
+    {
+      "title": "Vier nieuwe doden door westnijlvirus. RIVM verwacht afvlakking uitbraak",
+      "url": "https://huisartsvandaag.nl/vier-nieuwe-doden-door-westnijlvirus-rivm-verwacht-afvlakking-uitbraak/",
+      "source": "HuisartsVandaag",
+      "category": "Aggregator",
+      "weight": 0.7,
+      "published": "2026-10-04T22:18:05+00:00",
+      "summary": "De afgelopen week zijn vier mensen overleden die waren besmet met het westnijlvirus. Hoewel dat de grootste toename is in een week sinds in augustus de eerste gevallen werden gemeld, denkt het RIVM dat de uitbraak over zijn hoogtepunt heen is, zo bericht de NOS. In totaal zijn in Nederland dit jaar negen mensen aan [&#8230;]"
+    },
+    {
+      "title": "Video – Nieuwe campagne voor 40 nieuwe huisartsen voor 40.000 inwoners van Drenthe",
+      "url": "https://huisartsvandaag.nl/video-nieuwe-campagne-voor-40-nieuwe-huisartsen-voor-40-000-inwoners-van-drenthe/",
+      "source": "HuisartsVandaag",
+      "category": "Aggregator",
+      "weight": 0.7,
+      "published": "2026-10-04T22:16:59+00:00",
+      "summary": "Meer dan 40.000 inwoners in het zuidoosten van Drenthe dreigen binnen tien jaar. zonder huisarts te komen zitten Om het huisartsentekort op te lossen zijn veertig nieuwe huisartsen nodig die naar de provincie gelokt moeten worden met een nieuwe campagne, zo bericht de regionale omroep RTV Drenthe. Veelkoppig monster De aanpak van het huisartsentekort is [&#8230;]"
+    },
+    {
+      "title": "Motie voor nieuwe bekostiging huisartsenzorg unaniem aangenomen door Tweede Kamer - HuisartsVandaag",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcFNZbXAwcUpESDV6ek96SkRmTEhKUXNmeXB6Q1p4YXVPcHhHWll1VVhaNXZ3STY2eWlDM2loWENmUmhZenAxaWVodzJXZWV2RmR5X014a182RDY1WHA4YnVLVTFwVUxwMkt6RmpZX2hEbHVJSXJpWjlCQko0QXBXMjAzYzlpRzVDQ0pUZVk4M1U4cDQzZGliaDlkNGx6czFQVWhrcF9oa3V6QWtQWlE?oc=5",
+      "source": "Google News - NZa",
+      "category": "Bekostiging",
+      "weight": 0.8,
+      "published": "2026-10-04T22:16:02+00:00",
+      "summary": "Motie voor nieuwe bekostiging huisartsenzorg unaniem aangenomen door Tweede Kamer &nbsp;&nbsp; HuisartsVandaag"
+    },
+    {
+      "title": "Vaccinatiegraad voor pneumokokken in 2025 66%. Percentage voor griepprik was 54%",
+      "url": "https://huisartsvandaag.nl/vaccinatiegraad-voor-pneumokokken-in-2025-66-percentage-voor-griepprik-was-54/",
+      "source": "HuisartsVandaag",
+      "category": "Aggregator",
+      "weight": 0.7,
+      "published": "2026-10-04T22:14:53+00:00",
+      "summary": "In 2025 liet 66% van de mensen die een uitnodiging van hun huisarts kregen voor het nieuwe vaccin tegen pneumokokken zich vaccineren. Voor de griepprik was dit 54%, zo blijkt uit de jaarlijkse Monitor Vaccinatiegraad Nationaal Programma Grieppreventie (NPG) en de Monitor Vaccinatiegraad Nationaal Programma Pneumokokkenvaccinatie Volwassenen (NPPV) van het Nivel in opdracht van het [&#8230;]"
+    },
+    {
+      "title": "Audio – Verpleegkundigen zien te vaak dat patiënten langer dan wenselijk worden doorbehandeld",
+      "url": "https://huisartsvandaag.nl/audio-verpleegkundigen-zien-te-vaak-dat-patienten-langer-dan-wenselijk-worden-doorbehandeld/",
+      "source": "HuisartsVandaag",
+      "category": "Aggregator",
+      "weight": 0.7,
+      "published": "2026-10-04T22:12:47+00:00",
+      "summary": "Veel verpleegkundigen zien regelmatig dat patiënten langer worden behandeld dan volgens hen wenselijk is, zo blijkt uit een enquête van vakblad Nursing onder bijna 400 verpleegkundigen. Drie op de vier ondervraagden zeggen soms mee te maken dat een patiënt onnodig lijdt doordat een behandeling wordt voortgezet. Bijna één op de vijf verpleegkundigen zegt dit zelfs [&#8230;]"
+    },
+    {
+      "title": "Rokers hoeven stopmedicatie vanaf 2027 niet meer voor te schieten",
+      "url": "https://huisartsvandaag.nl/rokers-hoeven-stopmedicatie-vanaf-2027-niet-meer-voor-te-schieten/",
+      "source": "HuisartsVandaag",
+      "category": "Aggregator",
+      "weight": 0.7,
+      "published": "2026-10-04T22:12:17+00:00",
+      "summary": "Rokers die via de huisarts of een stopcoach met roken stoppen, betalen hun medicatie vanaf 2027 niet meer eerst zelf bij de apotheek. Apothekers mogen vanaf dat jaar de kosten rechtstreeks bij de zorgverzekeraar declareren, zo bericht de vergelijkingssite Overstappen.nl op basis van eigen onderzoek. Nu moeten verzekerden het bedrag nog voorschieten en achteraf declareren, [&#8230;]"
+    },
+    {
+      "title": "Dames Hollandscheveld draaien derby om en pakken winst tegen Zuidwolde - Regionieuws Hoogeveen",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWVhsUWxveVo4dnU4YWhDWnItV2RTRllFRE5SemNaZHpKLUQ0azQxX1FHVTNqcm5JODZSUENzaEU3c1VHZTFaUmI2ZEpYbFJiQ25zVUFycWxscE1ITEhKX05wNFJOLUFmWW1PU3ZKNnNoNjdZcWg3WHF4aXNnTTVqbGszeHlRWGRHaE9aaE1PTnVOaGtyNkNweURqcWV3aU1OQS1CMXU2LVJORWVBVXc?oc=5",
+      "source": "Google News - huisartsentekort",
+      "category": "Algemeen nieuws",
+      "weight": 0.7,
+      "published": "2026-10-04T16:07:31+00:00",
+      "summary": "Dames Hollandscheveld draaien derby om en pakken winst tegen Zuidwolde &nbsp;&nbsp; Regionieuws Hoogeveen"
+    },
+    {
+      "title": "Kwetsbare ouderen hoeven minder snel naar de spoedeisende hulp dankzij nieuwe poli - Omroep Zeeland",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSExCWk5hemJJMTVLYlJPRUxPRmszd1hLdEx0cUJFbDAyY0JHeWNjVmVCQUpJYVpOUU9oMHpQLVlqZ05aY1hDTlNOeTdUd2NrdnJUVFFJd2dyejFkWnAySFhwV1E4aEFNN2JDeGVPMHZwck5QYUY5OEdnM0x2YktkMDA3clFYZzJNX2E3cjJoN3ZLOHpSZk9MaVFZOWM1QkdoVEhHTVg3WUZRZnBMS0RHMHNWM3RhSnR1Q1NJd1JreWtlaHhkQV9fWURHZw?oc=5",
+      "source": "Google News - huisartsentekort",
+      "category": "Algemeen nieuws",
+      "weight": 0.7,
+      "published": "2026-10-04T12:07:30+00:00",
+      "summary": "Kwetsbare ouderen hoeven minder snel naar de spoedeisende hulp dankzij nieuwe poli &nbsp;&nbsp; Omroep Zeeland"
+    },
+    {
+      "title": "Van motie naar actie: aanpak huisartsentekort krijgt concreet vervolg - elim-drenthe.nl",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOOC1JRmFQbUVTUGJxRnZPejhwdXhzMThDbVVkR29nLUFZOWpGekhKUVBDZ2w3bElvN3pLbUxmMTBxZTRnZHJpLWVuQzUxLUpoUFp6Nmh2Y2xZSU8wNUdXdmpSb1hfay1yMDdKRXJCam9vQ2l3WWdVQ2E2RWlyejZaT3NUOUh4WTJFSzBfVXVBTS00YzI2M1RYSmFyTGFydw?oc=5",
+      "source": "Google News - huisartsentekort",
+      "category": "Algemeen nieuws",
+      "weight": 0.7,
+      "published": "2026-10-04T11:03:56+00:00",
+      "summary": "Van motie naar actie: aanpak huisartsentekort krijgt concreet vervolg &nbsp;&nbsp; elim-drenthe.nl"
+    },
+    {
+      "title": "Geliefde huisarts Walter Van Bavel krijgt vijf jaar na zijn overlijden eigen plein: “Hij stond altijd klaar, ook ’s nachts” - GVA",
+      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNNVczVTZnbEk1dml5TGxwTF94d21IZlJBc21OR05Ra0MydkI3U3B3Vlg1dlVnQWRpRGhpQ2JpeG9CUWhPQ2JWY2dUT0hhYUgyY1hLN19HSWV1UmpLZ1lpQkhPTmt1cDhfQU53M2M1V3hUdGpGb3Y1NFNpUkxDUC1WR201S1NYRDhXQVJkWE9kcXRrNGk1c1cyUVFrU3RHbWp2Z19tTVRwZHlGZkxFOXlocS01ajFtd0pvVXh4UmQ3UzFiOWJVVkluT0J2VENFdzJuYmxFMW1Dd3pGa0w3WXB4a1lhdVJ2aDVvWDEzX1pHSFBfUXczNVJYWXZBaTY0UzRDc284WS1hOE1jU0dNNUJRbGo0TGdqMnV2?oc=5",
+      "source": "Google News - huisarts",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-10-04T07:35:00+00:00",
+      "summary": "Geliefde huisarts Walter Van Bavel krijgt vijf jaar na zijn overlijden eigen plein: “Hij stond altijd klaar, ook ’s nachts” &nbsp;&nbsp; GVA"
+    },
+    {
+      "title": "Berlaar eert huisarts Walter Van Bavel met eigen plein: “Hij stond dag en nacht klaar om zijn patiënten te helpen” - HLN",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPMDU0WmNSY2xScHpmV0ZfbGQ0WmhzS3FmMmc4S2ZUek1TdG5sdWxlbzFsZzh0UDVuQy1IdVVXZXZBR0d6RE5yQ1ctSEtfQkJFZGI5NDh0a294VWRJTl9xcEZIMGhaQWpEbTZBX3NMaDA0ODljQUdNa0VXOGtFRWtmbVZRaFl5dXVoWlBSMmRpcXRKbmQ2b3NZT0xCQkdjR0kzcE42WDVRTmRHZkhjd2w2MFl5cFBSdzB4QU5lOXQyWVE1Y29qUHFxQy0zZUZSZXpXQUotdElPVndIZV9Dd0NkM3RR?oc=5",
+      "source": "Google News - huisarts",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-10-04T06:02:26+00:00",
+      "summary": "Berlaar eert huisarts Walter Van Bavel met eigen plein: “Hij stond dag en nacht klaar om zijn patiënten te helpen” &nbsp;&nbsp; HLN"
+    },
+    {
+      "title": "Kan een spontane bloedneus kwaad? - plusonline.nl",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5XR05UYldVaTgtanMtdEQwNXFmb0VROGVjaU9zWUZDU3RXSEZ1T1pnLVBBU3lLTDl2dHFhbTZfV1RvZU5mYWtLODFRUGNnOEVZWUVNNTlVb0xuWG91OEg0TUJMTWt3aG1mRm4tMFlCanFwMWsyX1E?oc=5",
+      "source": "Google News - huisarts",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-10-04T04:00:00+00:00",
+      "summary": "Kan een spontane bloedneus kwaad? &nbsp;&nbsp; plusonline.nl"
+    },
+    {
+      "title": "De huisarts vertelt: Jaarlijkse griepprik - DeMooiSonenBreugelKrant",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPenBVVXhXZE0yWDJ2U182ZzJQcF9mUUJlZ3JfdFhfMnMyYTZNaHhzSUVvMHZYX0QxQlJBSThqVU45aVBoTHU4Y3ZRa1k3Ym5WX095THFGNHZfaWF2SGl2X3RXRW5zaGxmckVwWkJPeEpWcXVhbXlGMXVvWGNpbS0wQWM3U1hjMTNBazdjOHhQallEUWg0N0U3bDZNU0tyeGUta1Rz?oc=5",
+      "source": "Google News - huisarts",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-10-03T16:07:00+00:00",
+      "summary": "De huisarts vertelt: Jaarlijkse griepprik &nbsp;&nbsp; DeMooiSonenBreugelKrant"
+    },
+    {
+      "title": "Dokter Van Bavelplein in Berlaar eert huisarts die bijna 50 jaar \"altijd meteen aan uw bed stond\" - VRT",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPUDQ3aWtQeEpWQVQza0EwN3BJMTlSM0hzOGZTRERQV3RvRmVDNHFWWl9xV0QtQUVUZW1fbTE5U0dDa3l3Rm1lWUlSd1Q0ekdyWGkzOGNXV3NtbnJSTWRzTkxWd3Z3NG1CZ0xJa1NyUEVHY3JIN3p6TkplMnc0aHpNLTBGOXlZRGRmUUE?oc=5",
+      "source": "Google News - huisarts",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-10-03T14:56:43+00:00",
+      "summary": "Dokter Van Bavelplein in Berlaar eert huisarts die bijna 50 jaar \"altijd meteen aan uw bed stond\" &nbsp;&nbsp; VRT"
+    },
+    {
+      "title": "Wie wil er huisarts worden in Twente? Een rondreis met de bus moet helpen - AD.nl",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSER4WGZ1WmdoSFFHUk5LZmZNbmE1RmNIX0stS21USlZXcXdjcHY4QThiWXFXZkxySGZ5clZxT19vUXYyb0xNVGNDYUVPWnA5dlZ4SmozbnJKb3lQY3RnN3hmTzZfMVROdDNBMzBKQTF4Ymw1TzhrbmpCMlVkd0wyR09LbWN2aGhjR1FHWVpBRVM2cU5nXzBkM0NpTDZCdlFrSkI2YjFOTTh6X3c?oc=5",
+      "source": "Google News - huisarts",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-10-03T08:00:00+00:00",
+      "summary": "Wie wil er huisarts worden in Twente? Een rondreis met de bus moet helpen &nbsp;&nbsp; AD.nl"
+    },
+    {
+      "title": "Levering vaccins vertraagd: uitnodiging griepprik van huisarts kan later komen - Goudse Post",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNkhYeXp2cGFKZko3akNvNGt5cF9jZy0yT1QwOHRLNGxjTEpyUEhmWWJWbG0yNm5tMWJYa01JZUMyTkdCdFF1VUhYdUxWSGNQTlRSN3M5VUFrMEF1dGZkT1V5Y19LY01kMHJPUVJqNUR1SkdTRGhsZTdsWm01Z2ZSNGtqZkVjeTlVUmZucVZMN21Jblc5SXFZdDVzR1h5Q0NvNzdWYVZjWWhNYXl2WklaTlJGWFpDYTI5OVpZRThXZ21CSjYzRG1Xd2FSUQ?oc=5",
+      "source": "Google News - huisarts",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-10-03T07:29:34+00:00",
+      "summary": "Levering vaccins vertraagd: uitnodiging griepprik van huisarts kan later komen &nbsp;&nbsp; Goudse Post"
+    },
+    {
+      "title": "Catharina Ziekenhuis kiest voor regionale aanpak van groeiende vraag naar hartzorg - Catharina Ziekenhuis",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNM0dtTllSeUFOcllYLXVLMS1FckZ6ZDZ1R0thVEZBYXdzVTJxamw4R1Q3TFpHQU1ydDZORmR0YWprR1gyMUowVnBXYjYzR1F6aVdsb21oLUM2RUlzS1hYQTdkOExuS1NNX1hzSW1rQWdaUnhZc2hZNVo4aF9VUThPNnZ2SDZWVmloME1vUjMtTUo3Vzd6TkpWR051Q0kxM205QzExcjlISU03bUNiV0VnWkc1MkNvTEJ4NFE?oc=5",
+      "source": "Google News - eerste lijn",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-10-03T05:37:50+00:00",
+      "summary": "Catharina Ziekenhuis kiest voor regionale aanpak van groeiende vraag naar hartzorg &nbsp;&nbsp; Catharina Ziekenhuis"
+    },
+    {
+      "title": "‘Remgeld verhogen? Regering-De Wever dreigt de patiënt uit te kleden’ - Knack",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSzZleEQwZmg5TUZiNE9YdFVGQnBvTTlMUjJJSFBiS1BZdVFUSHk2OXpGdmJiUmVrOUxJQ2cyNlVxYXBSWUpVRTY0THRHcVlpTllNSkNIMkk4RGdhZ1NPTXJTVUc3LWl1dUFoRUlxNjhVMklxb3ZoeEJyRkl4YUpLQmhZNzlfNDhZUmFvREVVcThHeW9odjhjOGRQRQ?oc=5",
+      "source": "Google News - VWS zorg",
+      "category": "Politiek",
+      "weight": 0.7,
+      "published": "2026-10-03T03:06:00+00:00",
+      "summary": "‘Remgeld verhogen? Regering-De Wever dreigt de patiënt uit te kleden’ &nbsp;&nbsp; Knack"
+    },
+    {
+      "title": "Veertig huisartsen gezocht voor ruim 40.000 inwoners van Zuidoost-Drenthe - RTV Drenthe",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUElYeFUwTmRiZHhWdGJFVzkyWEdsNnZ4Q3RWcVdfQ0dkM252eGNYdUYyNk01VTZ6T2VUWXdBeGswSzVnNW1wZ0hzYnQtV2xkelRQWHo0dmk3LVBRMUF4Szd3emx0TWRBTGFVYXlZekU2ZUVJZmtNamVDbDQtQnVVcjZXWWI2OF9KeW9SODZ0QkhQMENiWi1TVXpsa04zeUk3emxMQ1NXQmVvVDBIeTVxbEo3Z0g?oc=5",
+      "source": "Google News - huisartsentekort",
+      "category": "Algemeen nieuws",
+      "weight": 0.7,
+      "published": "2026-10-02T19:49:00+00:00",
+      "summary": "Veertig huisartsen gezocht voor ruim 40.000 inwoners van Zuidoost-Drenthe &nbsp;&nbsp; RTV Drenthe"
+    },
+    {
+      "title": "1 op de 17 mensen heeft nu hoest- en verkoudheidsklachten: wanneer bel je de huisarts? - RTV Utrecht",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPclUwZWtrTi1yWlJwVkl0R2FaOTZjVG0tUjl1Qy1GSG5aX1RnQTdldFpjMGRkeU5xMVFmbG5UYnMtQVNvTVRlM3U5dkR5UkhING1jQk5NQU11QnRWQnFxWXRhUHVSeEd5WmpPOEl2Sm5pNmYzdWJGSnNXUVE5all0cTdtd2Rsb0w4T1gxMXRrcTN2bDBiTDhJV0c5VkZka1dHNTV2QVFqdENlVnRLeGdaNUp2Q1RvOGF3ZHJYX0VfZWFIQQ?oc=5",
+      "source": "Google News - huisarts",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-10-02T19:00:00+00:00",
+      "summary": "1 op de 17 mensen heeft nu hoest- en verkoudheidsklachten: wanneer bel je de huisarts? &nbsp;&nbsp; RTV Utrecht"
+    },
+    {
+      "title": "Start campagne: meer huisartsen naar Zuidoost-Drenthe - Coevorder Nieuws",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVGhKNkxkRmtaWC1jR2o2dTNnOE9BUTBfVkdkVzNXUzNna3NXSzFIWGgxRmEtVGR4ZTh3WjN0M0JyMWljbC16R2xmSkJmZ1VZYThsSW5tWFdleTJlSU02LXl6Y3JVOWs2bTFrc3pCMDR1Qjl5YjFwU0hfQ0t1eVFkOGJlTXBKRGUyUzZ1SDdRSVk?oc=5",
+      "source": "Google News - huisarts",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-10-02T16:53:07+00:00",
+      "summary": "Start campagne: meer huisartsen naar Zuidoost-Drenthe &nbsp;&nbsp; Coevorder Nieuws"
+    },
+    {
+      "title": "42 nieuwe huisartsen gezocht in Zuidoost-Drenthe: de Delftlanden in Emmen heeft al praktijkruimte gereserveerd - DVHN",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOV2RzbnZvdkoxVUtXVFlVU2JtZTNSemtrc0lPbGdfdFRaZ0ZRMW42NXFGNmFsNmhTS0MtaXdjZW95YnNPXzNpRndRTXluRjhOdFN5RmZCcUJaZTl6S0QtN1ZsVUd2b1hCR0h5NmdkZnZsQVdIclpLVHVxdnVyS2RZOVQwLVpBeEtmbmtLOGZTRkZ0SHk2LVV1Ty12LWdNTlRMOWp0RnQ2Z3Jva0paclJWZjViT1VPMHlDSjZBZ2lkTFo3MF9fV1pyNzkyV2FzTGJqNGliWFk4eXVGd1BFcVV1MkR5VVZncDRCNmtYVVBuaWNTZ3R5UENF?oc=5",
+      "source": "Google News - huisarts",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-10-02T16:00:00+00:00",
+      "summary": "42 nieuwe huisartsen gezocht in Zuidoost-Drenthe: de Delftlanden in Emmen heeft al praktijkruimte gereserveerd &nbsp;&nbsp; DVHN"
+    },
+    {
+      "title": "De portefeuille van huisarts Philippe De Peuter: ‘Mijn aandelen moeten vooral dividend uitkeren’ - De Tijd",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNazFBdnRHbDRMNmpnMGtzSkpuUzRvTmJteGV1NFozVVlYdUMzVW9QWjFxWWFMODRlNXZxWkRvT0FJemhBcFB5MVR0bThoeGdPY0JEZmthT3BiQ0o1YXlzQVJkS1ZvWmVYb1NsRzVlbWEtRWpGR1JKWGhrYkFVZ3BTVVlLQmhzdFRkcTVSdVdFdl9wcHZ6YW5DYm4xRlZveC02OXZONHNYWFFGV0l0TE1rdU9ROWU1Y0VqUHQ3cEpETmprRXFnUk9qak1STmtCdWRfdlFWdy1qc0dCRnZ2ZzZHcXBsaGNtYzJzME5ETQ?oc=5",
+      "source": "Google News - huisarts",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-10-02T15:35:09+00:00",
+      "summary": "De portefeuille van huisarts Philippe De Peuter: ‘Mijn aandelen moeten vooral dividend uitkeren’ &nbsp;&nbsp; De Tijd"
+    },
+    {
+      "title": "Gewijzigd Sc Welberg Heren 1 pakt eerste 3 punten - Kijk op Steenbergen",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYnQ5NG5MeEVPbnh5ZldURjBuVGhNTU5FSTUwODcxOEdJTEhzblFiV2xJcTVmUm1xOS1RaWZ4cHRzcFcxT0V1Uk52Q3l2RmNuVFY0cTNBalNseU5JRUswMWV4OFlZMzYyNTJ0TUlYOUtVTHgzR1RkNXZQRFRGMHRLb1hCRU5TVHJoWnByQ1VVRlRsemZLVXRBOFFYMC1MLWdmOWtwXzNiMA?oc=5",
+      "source": "Google News - huisartsentekort",
+      "category": "Algemeen nieuws",
+      "weight": 0.7,
+      "published": "2026-10-02T14:00:00+00:00",
+      "summary": "Gewijzigd Sc Welberg Heren 1 pakt eerste 3 punten &nbsp;&nbsp; Kijk op Steenbergen"
+    },
+    {
+      "title": "Alzheimer Café in Biddinghuizen bespreekt rol van huisarts - de Stentor",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMkZtVXY4cXNFUXY2UTM2WUJKZkNDSlFLcFpha3NDQm54cGNFMkJtU29yVkk4VmhGQ3pNOVlVQlA0SWhUSjF3WlJLbDZrVDJiYUNuN0dJcjBUZ0huTXNvRTBmSUU3a2JESWdHbEpPTHhBeGZXTG1PU3ZwRVFOcW1xUUlXY1otUlhMSXF0UWdwN1pOZnMtb3RCZE5lZkM3enYxYTdz?oc=5",
+      "source": "Google News - huisarts",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-10-02T13:30:00+00:00",
+      "summary": "Alzheimer Café in Biddinghuizen bespreekt rol van huisarts &nbsp;&nbsp; de Stentor"
+    },
+    {
+      "title": "Preventie past niet in tien minuten - Artsenkrant",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5USmN0Z183Y1dkSVd5UlQyaUVuaXVZc2JHeVV2XzE3TjVDWlpsSVAzTnRoYW5FXzNVTmVPU1doS19CWW1qeko2cXlZNE10V1hwOTNRUmM0Qkp3WGljMzhXLWVfWQ?oc=5",
+      "source": "Google News - huisarts",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-10-02T12:53:03+00:00",
+      "summary": "Preventie past niet in tien minuten &nbsp;&nbsp; Artsenkrant"
+    },
+    {
+      "title": "Huisartsen krijgen 2,19 euro extra per GMD via praktijkpremie 2025 - Medi-Sfeer",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOU90QkdPSFFHeFpoUkpFOXBqVGYxVDBNMlFpakZUTFFsME5lejRBaVRSUlctUU5xcWVtNkkxTUdGaWZ0UnFKbEVmUXhhQWsxMFFZai02RG9xNXk5Q19EQy15OEU3SENyZllQeHNSTWN6M2FJeUo1c2lTZm9nRE9Ma3ZJTGtLb1h4S1lmRW5jdEVrU0FZNTk1dE5QTUVDZjMzaDJOQ05xaFVqdEhnNGR0RmZPdkVvQ3I3cElB?oc=5",
+      "source": "Google News - huisarts",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-10-02T11:59:48+00:00",
+      "summary": "Huisartsen krijgen 2,19 euro extra per GMD via praktijkpremie 2025 &nbsp;&nbsp; Medi-Sfeer"
+    },
+    {
+      "title": "Portugal leidt huisartsen op nu er steeds meer met pensioen gaan - The Portugal News",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMHQ4Znp1c3ozaldCbUlRaHFqVzliNFBSSEdoME1BX0ZMcTNMYnQyTEtjY1BfZVlFS3ZmSVdiN1VEeUd2SFhSYVhhM1ktMVJpLTNNZFZGVUV6OHA5bnRXcm1zWi1hMnFKbDhzMnNEWXAzTmpsMUxGUVgyc2VzNmNyNC01cW8tRl9WZFNENmk2SjRMaGoxbmhQUjVnWnlHZzZPbGFGRENVc1lXWEgyRUhyWnFjNTA?oc=5",
+      "source": "Google News - huisarts",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-10-02T10:09:21+00:00",
+      "summary": "Portugal leidt huisartsen op nu er steeds meer met pensioen gaan &nbsp;&nbsp; The Portugal News"
+    },
+    {
+      "title": "Vlaamse besparing op huisartsen raakt ook de patiënt: \"Minder tijd of meer betalen\" - VRT",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVVFGanF0RjBtMUZfSDVnaHpMZnZBRUI4SFo5cHV0NWtPcHVKZDlKcnRuMW9DU2NBcGgtQ1M4Z0Q1NE9PclhnbncxMHp3TEJIUXhsVDBPUlp0eUlzRGZDdzFaS2pJNW50ZzV2dGJqaXdFN0NtTW9SdkdkRlZYYTM5bGpabW9udw?oc=5",
+      "source": "Google News - VWS zorg",
+      "category": "Politiek",
+      "weight": 0.7,
+      "published": "2026-10-02T08:08:12+00:00",
+      "summary": "Vlaamse besparing op huisartsen raakt ook de patiënt: \"Minder tijd of meer betalen\" &nbsp;&nbsp; VRT"
+    },
+    {
+      "title": "Gratis cursus in Rheden over patiëntenportaal van huisarts en ziekenhuis - rheden.nieuws.nl",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdGtGRi1mNlQ4aVZlT1ZNdnVHYkRjYzA3bWRueFBweUZsV2RsNF9mM2thaGh6bExtWVR4VHhrbnZySmczUkxBWGlkZ2hBWmFmXzVOTEhzTnhQZlR6VmUzQUw0d0xIVXpZQm1JbUk2U1pjTDEzV1BpMU4tUjJwY1BhMlgzdGl3aG55WWVobjFDRS1Pb1RrbEVtSGxiUGZ2T1BIWU8zNUhyRQ?oc=5",
+      "source": "Google News - huisarts",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-10-02T07:11:43+00:00",
+      "summary": "Gratis cursus in Rheden over patiëntenportaal van huisarts en ziekenhuis &nbsp;&nbsp; rheden.nieuws.nl"
+    },
+    {
+      "title": "Gennez bespaart 25 miljoen op (jonge) huisartsen - De Tijd",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPX1RJSHFpTUJCbjZNY2FsTlR5OHVQZTJsMl8td0lPaEg3TWtMWnFxQlk3cUZWaFRna2FRamFoOEE4S1VNNElZc2hZYXdxY0piWHlCakRBOF94VUFxNnVjcGRBZDFkSGwtXzBDUXZudTdfbkRGalFyYTFIQW5FNFg3VnpGVzRZYmNGSXY4ZkJ4WVhYRUhGNnR6M0IzZTdIdzZvYU5UM1I2VEpjajR1Ti1GNFFHaEo?oc=5",
+      "source": "Google News - huisarts",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-10-02T07:07:51+00:00",
+      "summary": "Gennez bespaart 25 miljoen op (jonge) huisartsen &nbsp;&nbsp; De Tijd"
+    },
+    {
+      "title": "Onze zorgen over nieuwe inlogwet krijgen gehoor in Tweede Kamer",
+      "url": "https://www.lhv.nl/nieuws/onze-zorgen-over-nieuwe-inlogwet-krijgen-gehoor-in-tweede-kamer/",
+      "source": "LHV",
+      "category": "Beroepsorganisatie",
+      "weight": 1.0,
+      "published": "2026-10-02T04:02:28+00:00",
+      "summary": "Nieuwe regels over veilig inloggen mogen er niet toe leiden dat je tijdens een visite niet bij een dossier kunt. Of dat een waarnemer niet kan inloggen of dat er kostbare zorgtijd verloren gaat. Met die boodschap ging de LHV eind september naar het Kamerdebat over de Wet DIAZ. Onze zorgen kregen brede aandacht. De minister kondigde daarop aan de wet op onderdelen te willen aanpassen en meer ruimte te willen geven voor een werkbare invoering."
+    },
+    {
+      "title": "Van geschrapte huisartsenpremie tot besparing op thuiszorg: wie is de dupe van de besparingen op Welzijn? - De Standaard",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPQnh4dW9KQmFXOTVIMUlGME5nOVAtd0l3LWQ4X1B5bUstYUJjSEZ4NUM0am5WcGYxLTFaYV9acnJpb0JSWl8wbTNlMWpMRWFBVUpna2d0TGFHdnhNTnNlZWZ1WndCNFVZNnVEOGxfOW1PMTIxVks4Mlg5dW91REk3eUl2VTBLQ1cxRXlSSmdrT3hEZTVkMlZtV0pyMnJxTF9RVElnNHBnVXFZZ1gtNmliaEtDUGtvUVc0ajF1Q2d6WDNDMDdOMTJVYUtWRFZwVlk4Z2VhR2hsNWhqalhjNVV2UF9XVjhaeHc?oc=5",
+      "source": "Google News - huisarts",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-10-01T23:59:00+00:00",
+      "summary": "Van geschrapte huisartsenpremie tot besparing op thuiszorg: wie is de dupe van de besparingen op Welzijn? &nbsp;&nbsp; De Standaard"
+    },
+    {
+      "title": "Oostergo Huisartsen opent deze week praktijk in Dokkum - HuisartsVandaag",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPemdwU3VOdVdrSmVQaXJaX3RTWVMwUVgwRlI3WUxTa3N0VngzUjFUZklJdzVDQUVqR0ZybWVHaXdPZ3hCVzBoSjhESGdTZDVJbWstTExqeDh6X1R0blBxdE9xZ1pyOGlpRUFVY1BoU29UZjhUQnhDaDJWU3ZvNzdMV3plX3ROZFhnOFE?oc=5",
+      "source": "Google News - huisarts",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-10-01T22:19:28+00:00",
+      "summary": "Oostergo Huisartsen opent deze week praktijk in Dokkum &nbsp;&nbsp; HuisartsVandaag"
+    },
+    {
+      "title": "Hulpverlener met ebola overgebracht naar Nederland voor behandeling - De Telegraaf",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQYlJpcEtWV3kwRTRpMF9TZEZpQXFxeDdqVFZ4ZWw4ei1nQ0tOUVFGUC1uZ05hRlVNWDhkd3pSR2kxWU5JUmZTUU40TjVxdEFRREFfQ25kRGNKMDM0dTVDT0tVN0hRLUFPOGMxNUozVzdyNnFibDA3bmljVmVrb0VzWUxLUURheDVaT2hHM21GUnlrLU5HeHhxQnR6WEt0OVo2NnU5bGVpcGlLQVNJSEJxenpuamVsd0VEOGc?oc=5",
+      "source": "Google News - VWS zorg",
+      "category": "Politiek",
+      "weight": 0.7,
+      "published": "2026-10-01T21:19:52+00:00",
+      "summary": "Hulpverlener met ebola overgebracht naar Nederland voor behandeling &nbsp;&nbsp; De Telegraaf"
+    },
+    {
+      "title": "Domus Medica: “Schrappen van Impulseo is kaakslag voor de huisartsenzorg” - Medi-Sfeer",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNcFdxNjU1REsyX1hOWDlqY1B2OFZEcEc2UDZkeUhxcml0Ni03cjRDUllwYXl3Q3JVQjVuVzRQQWM4YVJYT2U2bmlTbUc4N1dsR0trSm9XQUpwNld6cm9xb1JNbmtqOXJWeW5fUUJ5bkJOWlJaMUhCbGttbDNrYWhaeHhZc3E1TWJlWHhTbGtpZUZFT01BWng1cktvbkdBa3lhVVFielVjUDQycDBWYjV3ZE9rRHJXOHR3V18yYmxhQ3d1LTZ3dmRoOFd3b1Z5cVFoNm9N?oc=5",
+      "source": "Google News - VWS zorg",
+      "category": "Politiek",
+      "weight": 0.7,
+      "published": "2026-10-01T19:27:26+00:00",
+      "summary": "Domus Medica: “Schrappen van Impulseo is kaakslag voor de huisartsenzorg” &nbsp;&nbsp; Medi-Sfeer"
+    },
+    {
+      "title": "Domus Medica vreest einde van Impulseo - Artsenkrant",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9iM3JsZDJSblRTX1hzTTF3dGlDVUJDWHJQeWNfYVZrYjRxcm94TktaZ184YWg3YlFHTXZETkVDMUFsQ1lHTnpoc3dZbzRERFM1dFJfRjJXMU5aTjBndm9uM0QtWQ?oc=5",
+      "source": "Google News - eerste lijn",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-10-01T15:48:55+00:00",
+      "summary": "Domus Medica vreest einde van Impulseo &nbsp;&nbsp; Artsenkrant"
+    },
+    {
+      "title": "COPD-patiënten door digitale ondersteuning sneller van ziekenhuis naar huisarts voor zorg - nieuwsuitnijmegen.nl",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOMVVrWXpkTUQyaEdiZFBHS0RBalNSdkIzRDhsMkthVFA4M0lZNDVIcFI1YVlodXpQUkZ6YW5lNE52QlRveFVoRTMxT1c1bzZGWXh1alFNdHZGUW94THdhMktvaHF2Vk9fUnVQXzZ0eUZUNXNSNkpBTlhpWkNSekJWemJTRm1WQVREVzVPNU9QVFVpanhUdWVKeXZfeU1KR1VOTkZZYXB0YWZyWDg5aDh4YlZzRkZKT0E2S0phQUxpZTNFZUloeWFsMFEzMXFnMHlDMWJaRHlB?oc=5",
+      "source": "Google News - huisarts",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-10-01T15:09:00+00:00",
+      "summary": "COPD-patiënten door digitale ondersteuning sneller van ziekenhuis naar huisarts voor zorg &nbsp;&nbsp; nieuwsuitnijmegen.nl"
+    },
+    {
+      "title": "Zorgpraktijk De Zorgtoren opent in voormalige Heilig-Hartkerk van Geel-Winkelomheide - rtv.be",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQnRseERoTHpZaGR0U05SVU1vanRuNUZwX2Z3ajdaZ3hEbDBIOEo2TnFnWUJfT2thZ0F4TkJzR3ZmdmdpRHp2Z2V1MFFQN1hqb3hOSGFrM2VQRmNFZ21MWTR4bEt1N2Y3QnZyc2FCcVlTbVAzWEdxWlZzYXFQcUFpZi1OTkljeDNkNDlTUWY1b0xCR3Mxek9kZVNuUVlxSlYzWnlmclN5VEMwLVlt?oc=5",
+      "source": "Google News - huisartsentekort",
+      "category": "Algemeen nieuws",
+      "weight": 0.7,
+      "published": "2026-10-01T13:45:02+00:00",
+      "summary": "Zorgpraktijk De Zorgtoren opent in voormalige Heilig-Hartkerk van Geel-Winkelomheide &nbsp;&nbsp; rtv.be"
+    },
+    {
+      "title": "Vandaag opent huisartsennoodpost voor patiënten zonder vaste huisarts in Denderleeuw en Liedekerke - VRT",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZzUtQ3gwS1FhOEtNZHRfMHM4WWVidUxpMmpwTE9GbC11TUwwZnI2X0VfLWlPQkRzc3NCdDd0amNIQkpVMVVWWXM5LWpUWmN4OEg2c1VIYm01Q3pOUmg5OGhrNVFfZEZoR081Yjl1TmpkSGl2Zmh1NlVDa1dEdVhfWVpmZXdtSlYtWkx4WUQzRVhKWFlTQUNXNE5KTW5HUkFvcVFwem1USXk?oc=5",
+      "source": "Google News - huisarts",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-10-01T11:39:47+00:00",
+      "summary": "Vandaag opent huisartsennoodpost voor patiënten zonder vaste huisarts in Denderleeuw en Liedekerke &nbsp;&nbsp; VRT"
+    },
+    {
+      "title": "Unanieme steun in Tweede Kamer voor onze inzet op betere bekostiging",
+      "url": "https://www.lhv.nl/nieuws/unanieme-steun-in-tweede-kamer-voor-onze-inzet-op-betere-bekostiging/",
+      "source": "LHV",
+      "category": "Beroepsorganisatie",
+      "weight": 1.0,
+      "published": "2026-10-01T09:54:46+00:00",
+      "summary": "De Tweede Kamer heeft de motie-Bushoff over de toekomstige bekostiging van de huisartsenzorg unaniem aangenomen. Een belangrijk resultaat dat nauw aansluit bij onze inzet: begin bij de huisartsenzorg die patiënten nodig hebben en zorg vervolgens dat de bekostiging huisartsen in staat stelt die zorg goed te leveren."
+    },
+    {
+      "title": "Huisartsennoodpost DenderLied officieel geopend in Liedekerke: twee voormiddagen per week voor inwoners zonder vaste huisarts - HLN",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPNndON19ZendpRTk0TEFCaTZIclhzcWFGVFBvSHBzRVRFRzZTdlpDaVRaa3Z6QngzWTBWQXV0LUs3clJ4aTBXZnNubXcyaERLTTF5eVRySF9KSkJneEhZdXdUOGdrc3BVdVZ0ZE9yMk0yS08zWlZuVE9NZFdHdEU0cmdEdjRxWlNlRV8yNE1QMDlBb1dRRmR5WW4xUjFpcE5EMExmeEtXWlBCVDBIaEhLZC1pZjZqVGZsZEd5RE9TN0FNdE1WaXFrUHJYdjN4dExWcS1BdWdod1YtQ3ByWS1sdnpsYWRBWGJ2T2FpTDF1MTdXd1NlX2gw?oc=5",
+      "source": "Google News - huisarts",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-10-01T09:06:28+00:00",
+      "summary": "Huisartsennoodpost DenderLied officieel geopend in Liedekerke: twee voormiddagen per week voor inwoners zonder vaste huisarts &nbsp;&nbsp; HLN"
+    },
+    {
+      "title": "LHV bespreekt in Tweede Kamer randvoorwaarden voor goede palliatieve zorg",
+      "url": "https://www.lhv.nl/nieuws/lhv-bespreekt-in-tweede-kamer-randvoorwaarden-voor-goede-palliatieve-zorg/",
+      "source": "LHV",
+      "category": "Beroepsorganisatie",
+      "weight": 1.0,
+      "published": "2026-10-01T04:50:57+00:00",
+      "summary": "De LHV nam op 1 oktober in de Tweede Kamer deel aan het rondetafelgesprek over palliatieve zorg. Tijdens het gesprek hebben we de centrale rol van de huisarts bij palliatieve zorg benadrukt. Ook hebben we aangegeven dat goede samenwerking, passende financiering en toegang tot kennis en expertise noodzakelijk zijn om ook in de toekomst goede palliatieve zorg te kunnen blijven bieden."
+    },
+    {
+      "title": "Huisarts R. Visser geeft uitleg over wilsverklaring en medische zorg - DalfsenNet",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRWxva2RtbTUxVUFUYU1wWC14WlNkNElUWV94WENaMmtEZ05qUFpxNTVTSUQzRnNBT3ZUVWt3RXBKcTRXWjc5MlRIcUEweU5xMWJRcTd4ZGdGeG1kZ0JLZmJBdVhzOXNOckwtX0c5ZU9MWUVOdkRJb005ZXRfdGtELV9tY042blVtVl9XV3N5bzR6YVl6VkpHelF6WlYwN1J1TC1jbTdtOWR4QTNZS2UySkNB?oc=5",
+      "source": "Google News - huisarts",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-09-30T20:50:21+00:00",
+      "summary": "Huisarts R. Visser geeft uitleg over wilsverklaring en medische zorg &nbsp;&nbsp; DalfsenNet"
+    },
+    {
+      "title": "Ook gemeente uit zorgen over commerciële Huisartsenpost Zuidplein - Dagblad010",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPai1UdzZmZ3p5OGU5SHVuTkZwdGFWbzJaLXg0Nm53RmdoR0dYMF9XODU5MUtId1JLNFRZc2ZqOGhQbXMwOTM5SnFxTkJGT3U3ejZuTXpXUjdacnkxbjQ1UzBjd2ZwNHFHZDQzX1h0eVZVeVNLOWJZdExsVFNlUWhiY2w4SUt6M1VUbi1GWW9DMl9WNjNHMzF3LUVtZw?oc=5",
+      "source": "Google News - huisartsentekort",
+      "category": "Algemeen nieuws",
+      "weight": 0.7,
+      "published": "2026-09-30T16:20:30+00:00",
+      "summary": "Ook gemeente uit zorgen over commerciële Huisartsenpost Zuidplein &nbsp;&nbsp; Dagblad010"
+    },
+    {
+      "title": "Waarom arbeidsmigranten in Twente straks gratis hulp krijgen bij belastingbrieven, huisartsen en loonstroken - AD.nl",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQaGhKdmZvd1Bvb0NKOXBKYkkxdGs1M2hrS2lyaVlXTEc0a210VHhBajN1N2h0Y0FCckZVR2NrSkpzNmwzd1BKdHV4eG5FUVp5V29tVVpKbFJ3QnRRa2VRWTdqYXotaDZESktKanAyaVh1Mm5TVVJuejh6R0MxRDcyZkMzWm16R0xLa2dPV1hhSjJYaFljQzRJS0xtOEx0S1dJVXdoYjhSeGpoNkNBZTZuU1FReWw3N01yOGhvb2tEdDQtWHRMYnBSTmFsVjdNamJ0WG12SXpsR1dGTzFm?oc=5",
+      "source": "Google News - huisarts",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-09-30T10:00:26+00:00",
+      "summary": "Waarom arbeidsmigranten in Twente straks gratis hulp krijgen bij belastingbrieven, huisartsen en loonstroken &nbsp;&nbsp; AD.nl"
+    },
+    {
+      "title": "Eigen risico definitief naar € 400: dit ligt nu vast voor 2027 (en dit nog niet) - Zorgwijzer",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQkhHTmtLSEk2cUhVTEtLTmRjVzQ5WmhwLW5XT19icmR6MVpCc05XZFNuOTVnVlFWNElzMEx6elFQUC16dmtpOGIzR1k5NUhGWHJobXB5NTBsT0gtUEN6TFF5TndYb1JsSG9tSXZJNlFkS1YwaHFSXzlMTlVFdjR5T1lUSmhpTWY0NzJMUUI3aG1BWU0yYW5RdjJYTnlaa3kybjd3d0s0STVVVlRCeEJHRjVVZ0VHcDRjR19CaHdXUVJ1Zw?oc=5",
+      "source": "Google News - VWS zorg",
+      "category": "Politiek",
+      "weight": 0.7,
+      "published": "2026-09-30T09:08:19+00:00",
+      "summary": "Eigen risico definitief naar € 400: dit ligt nu vast voor 2027 (en dit nog niet) &nbsp;&nbsp; Zorgwijzer"
+    },
+    {
+      "title": "Enorme rij voor afscheid huisarts Sjouk van Beukering - Soesterberg Nieuws",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORGd0Qm5fZ3J5dlhSTVEtaHVjQ0JnUWtSeFJPbHJLUFh0dFBDSzNtOVZZVGlkYlg0aC13TFZNNlhWUk9mZURVOUZPRUxZM1BNblVmWnFPaml3R0drTWhVS01zQ3p4OTRSbm1aa3pqanpFUWhEUzM3WUhFYkltTDJTSG5jc1hzMHE0?oc=5",
+      "source": "Google News - huisarts",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-09-30T07:00:00+00:00",
+      "summary": "Enorme rij voor afscheid huisarts Sjouk van Beukering &nbsp;&nbsp; Soesterberg Nieuws"
+    },
+    {
+      "title": "Venlo ontwikkelt een structurele beweegroute tussen huisarts en sportaanbod - Allesoversport.nl",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZlNBN2VfUllhclBRNDB0WWIzZS1PTVZfYkk0LVhZeU9WREw3LXc1TzhsMkp5QmdVQU9CSXhxemFQdExjUkJFMHc1bjFYYVQxZnBJeGJWSzNRU3BocFlrMXFNUDlvQXoxREM1MTdhRWtUMUNUR1Q3cUwwWjhwOFN2c0RwV0RUSWtzREhtXzV2VUlrV1haRXBWcFpFeXBtMnQ0VlI4TUt4eVl6Vk1zbFZ3QnItdFJjSWtmdkU2ZS1BTU5YNkVPd3BSTWQyNzdnd1FBMmpPYVhJaTBjZw?oc=5",
+      "source": "Google News - huisarts",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-09-30T02:37:32+00:00",
+      "summary": "Venlo ontwikkelt een structurele beweegroute tussen huisarts en sportaanbod &nbsp;&nbsp; Allesoversport.nl"
+    },
+    {
+      "title": "Wij, jonge huisartsen, zien elke dag in onze consultatieruimte drama’s passeren, het beleid doet niets - De Standaard",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQNHRVX2JyUE5tUzJwanFWRXZaTnVfUXBPMWlvTVFIQVp3REU3d05vZWdhU3V4WjgxQ3hoTVFzUzN4cERBZURrbThTNUh5MlE0aVBBSWJnSlFNS2FJSmhneWplYTRmU3pqTGxBRnd5S0RlNTZpZkZfUkV2cEhtYTBybnk1ekpBdno1NHhHNzZodFR2VWFRakhzR2lmUUdpRTR0OXFVS2pKaGI1Q2xsOGhPbm1aNHE1QVcwMzdidW1pVXJaR1huLUxNNm0xSUxXeGhPMWhDNGEwTjd6SXJxSDlV?oc=5",
+      "source": "Google News - VWS zorg",
+      "category": "Politiek",
+      "weight": 0.7,
+      "published": "2026-09-29T23:59:00+00:00",
+      "summary": "Wij, jonge huisartsen, zien elke dag in onze consultatieruimte drama’s passeren, het beleid doet niets &nbsp;&nbsp; De Standaard"
+    },
+    {
+      "title": "Wanneer moet je de huisarts bellen? Vertrouw niet alleen op ChatGPT - AI Wereld",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdndzY0lmNld2blBRNFd6UVRJNkhac3lNbFJoVmFUeEx0Y25weEY5ZFhVb1hSekdSZXpKeVVGZjlhSkl2a284VGFSTXFwbENEUWxSWm80YUJGWC1SZTF5UTVaejdrc3ZuSE44M1JKaE1yMzUwR0Y2aWhSQ21ldXRhUjJBWXJHcjlpYXRjQm82WTFwMVU3aUE?oc=5",
+      "source": "Google News - huisarts",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-09-29T18:34:56+00:00",
+      "summary": "Wanneer moet je de huisarts bellen? Vertrouw niet alleen op ChatGPT &nbsp;&nbsp; AI Wereld"
+    },
+    {
+      "title": "Meedenken over huisartsenzorg met cliëntenraad van HOOG - Nieuwsblad Stedendriehoek - Apeldoorn",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVnhqcDl3MXc4b003Y0lZQ3Zpa2NfN0lHNmx1dXl0VW1lYTNZa2VWLXF4VnpMODQtR1RJZm01RF9DQ1FieFJqZWlPREx4WDRyVklLaDZUODl3X2VJU0tQWkhQUkhUZ21OamFtdkJFM1lwLTRKSmVicWpZZ1hyLV9ndmxaRE9SbVkybnF0VmNUT2daVzQ1bW1xMGxpdlhCNGZHMjVOaURidTc?oc=5",
+      "source": "Google News - huisarts",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-09-29T17:01:01+00:00",
+      "summary": "Meedenken over huisartsenzorg met cliëntenraad van HOOG &nbsp;&nbsp; Nieuwsblad Stedendriehoek - Apeldoorn"
+    },
+    {
+      "title": "‘Hulpmiddelenzorg niet altijd beschikbaar in spoedsituaties’ - Pharmaceutisch Weekblad",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTHk5VUsxemo1ZnV5SV9mYzBvM1k0dWlENnFrNEw0dEJtbVdYZV9WRUVVTmxOckN4eU03dU9lSzMtWWxQUTNMdmdwZi1qdExCWEZVeGlzajFyVW9JcmpRa3dmQThuN1FpMUxwTEZHZ0ZRX3NPUzhJYTdOVXdPRHFKTTQyOXFpRUFkQTFQZ0I1Q3c0QXRVdmJyUHBvUnVDOXJpb3RSRXpVNA?oc=5",
+      "source": "Google News - eerste lijn",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-09-29T14:53:03+00:00",
+      "summary": "‘Hulpmiddelenzorg niet altijd beschikbaar in spoedsituaties’ &nbsp;&nbsp; Pharmaceutisch Weekblad"
+    },
+    {
+      "title": "Eigen risico volgend jaar omhoog, Kamer stilzwijgend akkoord - nos.nl",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQYWxmZC1odGctYlRCWlNCYVM2N3lRcGVLSHlwYkJOTHhUWE9IcDNjWWhSREFULUpaSlVWUkxnYmV0bkw2SFZFLTBUNEtFOGoxYVRuRFdOaFI0QTZoZC1GNUg2SENxZG9WLTFOYk5hb1BjaklpOVRsNmdYMnJmaGR0a25EOEpmdHZwZWZsM2ZXRktLbFMy?oc=5",
+      "source": "Google News - VWS zorg",
+      "category": "Politiek",
+      "weight": 0.7,
+      "published": "2026-09-29T14:44:59+00:00",
+      "summary": "Eigen risico volgend jaar omhoog, Kamer stilzwijgend akkoord &nbsp;&nbsp; nos.nl"
+    },
+    {
+      "title": "Bij de Doktershoek nemen de huisartsen steeds meer delen van de medisch-specialistische zorg over - Zorgvisie",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZ1psY0RiaVlleG1QOXItODByYmlIVlVMUlJfU18zcVowZzFINnRzV1BYMmt5X1FMWkdHcUJnTUMwR0ZYOTZsUjZ5U2l1RFRVdG9OaTNHMDBlU3FjU0RaeEM1aWUtLU5YUV9JeV9OTEIzZy1DbkxRSUM3ZVpIZGNfcnNiaklTMXlGdGRmdnRiWEhQX0NIcGtISWQtdW9QRVcxRXRqdlhKanZtd2poNkFoTW5Vc3A0WEV5bEFwNElSVlg0bTdHNVRDTWw5akU5MGotd1hmbmRMd0pkQQ?oc=5",
+      "source": "Google News - huisarts",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-09-29T14:15:48+00:00",
+      "summary": "Bij de Doktershoek nemen de huisartsen steeds meer delen van de medisch-specialistische zorg over &nbsp;&nbsp; Zorgvisie"
+    },
+    {
+      "title": "Help toekomstige huisartsen hun weg vinden - vvsg.be",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQVNWazdWRlBwenVJVURfdEpnWkJMRmRJVDZoWDhQUUFmcXJBSlRRLTQ5alZQajAxS0xXM3I0Ym1xejJyaWVPTGZhWThSbEVTSDN6cFhHaU5tbV9oTUUzbEdvLXROOUpHYUI3ZWJmVEFWVHBSekEzbWdUYW9veGNnRDA4WVo?oc=5",
+      "source": "Google News - huisarts",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-09-29T12:00:00+00:00",
+      "summary": "Help toekomstige huisartsen hun weg vinden &nbsp;&nbsp; vvsg.be"
+    },
+    {
+      "title": "Huisartsen drukker door AI-advies: patiënten bellen vaker met klachten - plusonline.nl",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUVkxNE1hM0pKWG1IaVYtODJlNHpzRHR6V2lIdWUwOXVCaExGaXp2cUxDaW11VVBvS2NZYUZmS0tnRDhCenV5RjBhVzQ1SXl5eDdDTUhjTzJ3Z3pJYXhPM2ZjS2doVzFqa1lueU9ZNUgxWThoQldnWjVyMzVoUUZOeEs5SzRaM2M2Uk5QVXpKblBqUFprTDBNYTFoVklrOTBmUDhwUUZ4aw?oc=5",
+      "source": "Google News - huisarts",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-09-29T09:35:27+00:00",
+      "summary": "Huisartsen drukker door AI-advies: patiënten bellen vaker met klachten &nbsp;&nbsp; plusonline.nl"
+    },
+    {
+      "title": "Politie vermoedt dat flatbrand in Apeldoorn is aangestoken: verdachte ligt zwaargewond in ziekenhuis - AD.nl",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdlQ3SDdkWXduSFhLOUdlcFYzVjJITnIzamp4MzRiT1V5aUllbEJFZ1FQUHJHeXJ1VlBPc0U5RXozQVpidzVBZkplX0hZdFJPLXVJZXRwS3hVOVEyVUFGem9lWnhuNF9wWTNPWnFQc2tsYzFFWllPQ3k3aFBTS25sMmRzZFR2dzlwX1RwLTMtTFlic002U3I5NTdNYnkxNklrQlh5NzA5eUFIbmxIcXhHRUxYckYwdnpiUjY1bXdaSWxfVEhRRncxMw?oc=5",
+      "source": "Google News - huisartsentekort",
+      "category": "Algemeen nieuws",
+      "weight": 0.7,
+      "published": "2026-09-29T09:19:47+00:00",
+      "summary": "Politie vermoedt dat flatbrand in Apeldoorn is aangestoken: verdachte ligt zwaargewond in ziekenhuis &nbsp;&nbsp; AD.nl"
+    },
+    {
+      "title": "Na sluiting van DLO bekijkt Lier centrale wachtlijst en mogelijk huisartsenpost op ziekenhuissite - HLN",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQV1ltZTdnLUlUMFU1bzlNVUE3SFNPM1lZUWxVMS1DNHlacDcyODdnLTBBbUdkcm5YaEZzaklZM2ZFT1ByY2tCR1kzVjJ3LThCdi1aVHJkaGlUeVJtQ2lEa3RzSGQ5SUpnU3djUnQ0Qm9VYkI5VkxPZmk4a2xWRjFpWllacEx4bnZqd0YzRmRRZVIzNWdxb1BiQ3lzTTcxZUF0ejZ3dC14ZmpBZUJTODBrSjJEQWxuN21ONldydXZ6OGlmbUtMWjdrMS1Ocw?oc=5",
+      "source": "Google News - huisartsentekort",
+      "category": "Algemeen nieuws",
+      "weight": 0.7,
+      "published": "2026-09-29T08:33:08+00:00",
+      "summary": "Na sluiting van DLO bekijkt Lier centrale wachtlijst en mogelijk huisartsenpost op ziekenhuissite &nbsp;&nbsp; HLN"
+    },
+    {
+      "title": "Wallen en dof haar door ijzertekort? Huisarts over ‘ferritin face’: “Wie zichzelf diagnosticeert, kan iets missen” - HLN",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNaFd4cnh5UzVjeVBfdk1mbkRlMWxvVy12N2t1SDZ4YVg1clMzMXVwQ2o3X3doQ0tsNUtXbXdhMXN1NVhqY3FLbHgtLXFnUTFkSWg0M0VhYnZveXVoR3lsWWhBX1NIUm5UUkthR29yai1ONlNkVzlxcHo5bThyUzJ2MkE4YmNEV0g4OEFvakpPd3JCYWxjTkRIX2dFTE9qZ1hnRGVVSTRUTmwtek9TUW5uYW1JUUpJTGVtZlY0cWFxUl9aeXI3cUxXZWdIcGc0Wm1pYlRXQ0E5M0RGdmQ1ZlpVbw?oc=5",
+      "source": "Google News - huisarts",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-09-29T08:02:10+00:00",
+      "summary": "Wallen en dof haar door ijzertekort? Huisarts over ‘ferritin face’: “Wie zichzelf diagnosticeert, kan iets missen” &nbsp;&nbsp; HLN"
+    },
+    {
+      "title": "Stad zoekt oplossing voor inwoners zonder vaste dokter: komt er een huisartsenpost op site Heilig Hartziekenhuis? - Nieuwsblad",
+      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQam9tSE9VaTJGUkhBQkVmVlBxak5WcGQ4YVFrd3ltQVVlaW1wdHNscGdvV1lSX2ZsaExzMHFOWHBreEZycXdpdlJKdFowUk82S1V1RWJVOVJyTU1pNWRQOXJBN2RuTktYUkJzT1FXc2h0RlByWS1qUENKVDVVdXNjNXh6dC1WVTFxNVRhM2MwU2ZGb3Y4WF96M1p6T3Fmb1pBRGhGOFVHWDYtVURjTkNjV2EzX0tLODZObGJEOHJHQ2Z2emZNTnlsWXExSWEtRWJKY29sS2lMRmFrWjdiQWswVFpqYWxhRWVxWTAzNzgzTkhUZDdIOXp4VHBpYWE3di1xcVFHYk9JaDVlTkhYb252cVVZMVg?oc=5",
+      "source": "Google News - huisartsentekort",
+      "category": "Algemeen nieuws",
+      "weight": 0.7,
+      "published": "2026-09-29T06:26:00+00:00",
+      "summary": "Stad zoekt oplossing voor inwoners zonder vaste dokter: komt er een huisartsenpost op site Heilig Hartziekenhuis? &nbsp;&nbsp; Nieuwsblad"
+    },
+    {
+      "title": "Kunstalvleesklier bij diabetes type 1 nog niet in basispakket",
+      "url": "https://www.zorginstituutnederland.nl/actueel/nieuws/2026/09/29/standpunt-bihormonale-kunstalvleesklier",
+      "source": "Zorginstituut Nederland",
+      "category": "Toezicht",
+      "weight": 0.8,
+      "published": "2026-09-29T06:00:00+00:00",
+      "summary": "De hormonale kunstalvleesklier voor patiënten met diabetes type 1 wordt niet vergoed uit het basispakket. Dat heeft het Zorginstituut bepaald in een standpunt."
+    },
+    {
+      "title": "Huisarts vertrekt een dag na start palliatieve sedatie naar het buitenland - medischcontact",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNlhMX2xaSHlLb3dIQ2dvZHJUWnZRdnZ4WV9FWGc2TTJIMXFZaDkzUWw1UEh2R1poMk55azM3d1AxRG9IbndYdW9RMEhDRms4V3RjTUVyLVFERmVxcENGaUxxbFYwTlVlRnZHWWU3NnRrdVozQXRMcE4xM0ZqTGQxbFl4cmRJbXQ0djhWRkhHWWZvM1Blc1E2TVdkemhWVnpMSE1aR09DdEpXWlhCX0dyS25KbXQ5NHNzTHcwRnZoMnpmTXVHRzBuQUhjWFM?oc=5",
+      "source": "Google News - huisarts",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-09-29T06:00:00+00:00",
+      "summary": "Huisarts vertrekt een dag na start palliatieve sedatie naar het buitenland &nbsp;&nbsp; medischcontact"
+    },
+    {
+      "title": "Zes jaar in beweging - medischcontact",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRVFJeExZNkZ2RjZoYlZteE1WZTJqOVRlZzM0akY3NlFmb0hRS2dKaVN5ODA2a2VxdVVqN0htUnV6TjVXYTZiUlBrWXMyLXoxWXRzaXBDSTR4N0tKZVNXaFZHZnZzeTFaMS1QZzI2ZEt2RGhMcFhRcVBwNjdIaGx1b0JPX0MzTFVGaFJ5WkJ6bjNFWGdOSUE?oc=5",
+      "source": "Google News - eerste lijn",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-09-29T06:00:00+00:00",
+      "summary": "Zes jaar in beweging &nbsp;&nbsp; medischcontact"
+    },
+    {
+      "title": "Overbelasting huisartsenposten door AI-advies - Bnnvara",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWEVyUUgyVnpsMFh4bW9xT2ZheUo4ZFFVMkwxYkFoWFR5QVV3N19jQlJBdWE2Z09nbHNEb2FrMDJYOEVqa3lOZGxPWFBxZG01bFhoa29VcnA3YVdSSFZqbEZrbGxGcFhjY0QyM2ZGdjMzaWZabzVobjlKR3ZhWXVxdnVVWUpXRnFOTnJV?oc=5",
+      "source": "Google News - huisarts",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-09-28T23:05:40+00:00",
+      "summary": "Overbelasting huisartsenposten door AI-advies &nbsp;&nbsp; Bnnvara"
+    },
+    {
+      "title": "HONK na brand op zoek naar nieuwe plek voor huisartsenpraktijk Langedijk. ’Er is nu onvoldoende ruimte om met het volledige team te werken’ - Noordhollands Dagblad",
+      "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxNZjQ4YnBjNFRFWXdwQ21QSW1YQ2ZrOGIzNVNQS2N0TTlkRVNyc0FCQ19ZcGNscHlQLS1ja1RBejVVMjUyRmIteFc5WGd4TDhmSVdpMHVpQ0hNcXFfdGR6Y3pNRlVpcUlWVEV6RUxjbG51cmRuZURUS1dKbHNVVG9OUkhLS3NrSXVlNFhCcmFQQ25ZdGY3Zy1MYzZzcDc1TVY3dUh0MTVUajNmVEJqZWZWZ2MwMWEyal81elJNamZFX1FYWnBNblBHSXF6aWVNTG4wUFB3YUFRYXFIazRlMjR2OW9ZNzRjVXFLWUp2QzNmSGIxX0RyTTNGeEptR01ZM3dzSFg2aU9DVERLcXRnWmhkWTJ3ekI3Z1BIX3FYSVJZMXJ1cVNyS1hCZklR?oc=5",
+      "source": "Google News - huisarts",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-09-28T17:40:00+00:00",
+      "summary": "HONK na brand op zoek naar nieuwe plek voor huisartsenpraktijk Langedijk. ’Er is nu onvoldoende ruimte om met het volledige team te werken’ &nbsp;&nbsp; Noordhollands Dagblad"
+    },
+    {
+      "title": "Delphine (38) opent prik- en verpleegpraktijk in Middelkerke: “Druk op de huisartsen helpen verlichten” - KW.be",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQVUVqZ19FenJHeXdLSV9yZWRfTjZSZkxjcC1Pd1loamNTVTI4MURucTZhNllMOFRZWkZJUjh6eDhCS3p5X0Rub1dQUk9vaXNSNEYwaWdGTEg5NUhLTHpPc1FteE1PWFBnZlY5NzlKZUx0WWt4NF8wMlBNQVpLOVFSZWJyQ0xiUjdSREFVRlRGLXMtS0Y0UFBoSnFjcW5xcFZ3Q3JodDlBc3lLTW4xMlVHQ0x1ckxVMlFSREtXWEF1UmZYcjlVWnVUVmV2T3JGek85bVZGbUNkSmx5Zw?oc=5",
+      "source": "Google News - huisarts",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-09-28T16:28:32+00:00",
+      "summary": "Delphine (38) opent prik- en verpleegpraktijk in Middelkerke: “Druk op de huisartsen helpen verlichten” &nbsp;&nbsp; KW.be"
+    },
+    {
+      "title": "Hoeveel verdient een huisarts? - Nieuws365",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9kX1ZfaDBLaWZCb0xNTVB4WWNTeW56MW5WanB1endqQS1aSG5PakFqb1E1SVNvNzQ2UVFIbVJheHNiUldzS3lFUGliLVRYVi1VZmhGaXRQdlhQSzkxeXZuckZjYlhQOVVqTkpMak5Sa1JWMnc?oc=5",
+      "source": "Google News - huisarts",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-09-28T16:02:31+00:00",
+      "summary": "Hoeveel verdient een huisarts? &nbsp;&nbsp; Nieuws365"
+    },
+    {
+      "title": "Renske (45) uit Rolde is huisarts, borduurt Hollandse meesters en geeft ze nieuwe swing - DVHN",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQUEhPbURBeW0tYkI2UmtUVjlQcUFrN2FNc05BRTZtRFhCbzAxXy1NdlBPLXp4ZVQ5bGg4ZFlqOUF2dkpFcFY2Zm9nTjVCUlRROERTMmdsSnY2NjViODFJZXlQd2NyWmFUWmtSNEhScFNOLWZ0Ynp1Si1IS2pfZ3pLQ09NUWQ4cUJJVVR1ZmVOZWVhRXhzVkxtN3pTeUM1LUIyTktmR1lIM1RrN1ViZjUtNFV1ZjRTT21fZFhYekhYUWY4MnRLNTBHNllnRFJvUFgtSTBXbWtOSDF2NmszaWc?oc=5",
+      "source": "Google News - huisarts",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-09-28T16:00:00+00:00",
+      "summary": "Renske (45) uit Rolde is huisarts, borduurt Hollandse meesters en geeft ze nieuwe swing &nbsp;&nbsp; DVHN"
+    },
+    {
+      "title": "Voorzitter Privacycommissie Nivel Zorgregistraties Eerste Lijn - Nivel | Kennis voor betere zorg",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOc3dIQWduU0JqWlZuQjMtZ2RnS3NKYWViM1FELWlhTl9FLXFYbjZtU280RUpmVThKX3pNOTJVM0J1bzR4MXhPWHBKakIwMHNtdnRFMUJCVWJNOFB6MVgtdVBmMDlRZUVGc3BKY2NMalBYX0pzVm80dGxlU0I3UEt5V0c0Z0FKdXFrNzQ2dlpGemtqQXNQMDJob01UNlU2WU0?oc=5",
+      "source": "Google News - eerste lijn",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-09-28T15:02:05+00:00",
+      "summary": "Voorzitter Privacycommissie Nivel Zorgregistraties Eerste Lijn &nbsp;&nbsp; Nivel | Kennis voor betere zorg"
+    },
+    {
+      "title": "Man raakt gewond bij mishandeling in Epe, twee maanden later zoekt politie nog getuigen - AD.nl",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSG4tQThCaURTQTVzbHhoTy1tS0ZPX0ZsMzFPUjkya2l6UEJNZktNcmFqbENzeUlLUTZBWE5BT2diOTc5d2ZQand2T1JZa1YzSmQ2UnotNmdDRmZLRHoxNFA5cEc4NGRMUnQzbGtiZ0gxMF8tb1NNWWs3NGFSX1czZG96dFN1R1ZQeXF3NXVlZUt6WU4yQmlPMHNaallZX240SXJHYUlwaE9IcGEyTEw0LUNlakxSRG1iNnc?oc=5",
+      "source": "Google News - huisartsentekort",
+      "category": "Algemeen nieuws",
+      "weight": 0.7,
+      "published": "2026-09-28T14:59:20+00:00",
+      "summary": "Man raakt gewond bij mishandeling in Epe, twee maanden later zoekt politie nog getuigen &nbsp;&nbsp; AD.nl"
+    },
+    {
+      "title": "Wintervaccins: wat verandert er voor huisartsen in 2026? - Medi-Sfeer",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVXhPbHpMSW9fOFlJODk0eUpKbldFWGpIV2JyVFRfNkRTX1EyVlh6TndmS1I1VGE1bTRlcTFGZjdFOXVjRVZTVkRlc2haRUl5dlB3VmZaYzc5X1VJMFo0dDF5VzBTU1U5c3NtSnNhMVN5X181TmcySFNJekk0V04ydElXaGQxVkwtQ2pKY3dlTENYeWFFdGtvQTR1Yy15RzNQSnV4TVZDREMyOE5P?oc=5",
+      "source": "Google News - huisarts",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-09-28T13:00:18+00:00",
+      "summary": "Wintervaccins: wat verandert er voor huisartsen in 2026? &nbsp;&nbsp; Medi-Sfeer"
+    },
+    {
+      "title": "Breed draagvlak voor landelijke afspraken over digitale beschikbaarheid van behandelwensen en -grenzen - IKNL",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBDQXFvTWYzbVRkQUpReFY1VXVhQ3ZJUEg2X1RrSWliZlhjbjlRR3FxbWJmTHNDTHhJWjd3SzhXUUxZVjNjdE10U0VlRTA1elRDU1NVb29JVzgtM3d0a3pkWHNESlRkbkpHTkp1cTFn?oc=5",
+      "source": "Google News - eerste lijn",
+      "category": "Algemeen nieuws",
+      "weight": 0.6,
+      "published": "2026-09-28T12:22:46+00:00",
+      "summary": "Breed draagvlak voor landelijke afspraken over digitale beschikbaarheid van behandelwensen en -grenzen &nbsp;&nbsp; IKNL"
+    },
+    {
+      "title": "De Dokter: deze week bij leden op de mat",
+      "url": "https://www.lhv.nl/nieuws/de-dokter-nieuwe-editie-op-de-mat-3/",
+      "source": "LHV",
+      "category": "Beroepsorganisatie",
+      "weight": 1.0,
+      "published": "2026-09-28T12:16:10+00:00",
+      "summary": "De nieuwste editie van De Dokter valt vanaf 1 oktober bij LHV-leden op de mat. Floris Heijboer, huisarts in Utrecht, vertelt alvast iets over de inhoud van dit nummer."
+    }
+  ]
+}
